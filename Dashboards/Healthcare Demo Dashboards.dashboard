@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="layoutPreference">auto layout</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">ThemesReportItems3.rptlibrary</property>
+            <property name="namespace">ThemesReportItems</property>
+        </structure>
+    </list-property>
+    <body>
+        <text name="c6c46cb6-0972-4002-9117-e0b01ce03e1c" id="19">
+            <text-property name="content"><![CDATA[]]></text-property>
+        </text>
+    </body>
+    <property name="dashboardView">
+        <dashboard id="2">
+            <property name="activeTab">602cdf71-5d8d-437a-aa60-dcf9d46621f5</property>
+            <property name="tabs">
+                <tab-element name="602cdf71-5d8d-437a-aa60-dcf9d46621f5" id="21">
+                    <property name="title">Briefing Book</property>
+                    <property name="externalTab">/Applications/NationalHealthcareApp/Dashboards/Briefing Book.dashboard</property>
+                    <property name="externalTabName">1d5b23ed-12c3-482a-92e3-273e88477022</property>
+                </tab-element>
+                <tab-element name="c9e081c5-8843-4724-91f2-8495e4073b2d" id="9">
+                    <property name="title">Corporate Strategy</property>
+                    <property name="externalTab">/Applications/NationalHealthcareApp/Dashboards/Corporate Strategy.dashboard</property>
+                    <property name="externalTabName">9362436e-3dae-4c13-8312-ab6900afe942</property>
+                </tab-element>
+                <tab-element name="dacdfd9b-9e6a-493b-93b4-054f1e94e9b9" id="11">
+                    <property name="title">Overall Health</property>
+                    <property name="freeFormGadgets">
+                        <gadget name="a426352e-3c95-4959-8d08-46aa498803f3" id="17">
+                            <list-property name="userProperties">
+                                <structure>
+                                    <property name="name">candidateId</property>
+                                    <property name="type">string</property>
+                                </structure>
+                            </list-property>
+                            <property name="candidateId">-226600589</property>
+                            <property name="x">278px</property>
+                            <property name="y">11px</property>
+                            <property name="height">538px</property>
+                            <property name="width">1025px</property>
+                            <property name="title">New Performance View Gadget 1</property>
+                            <property name="gadgetContentType">html</property>
+                            <property name="zIndex">2</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">538px</property>
+                            <property name="width">1025px</property>
+                            <property name="caption">
+                                <gadget-caption id="18">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Source Sans Pro"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="20">
+                                    <property name="gadgetType">View</property>
+                                    <property name="internalReportLetRef">c6c46cb6-0972-4002-9117-e0b01ce03e1c</property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="5a6d0dfb-0a3f-4828-a7bd-6fc51aa1fd96" id="14">
+                            <property name="x">10px</property>
+                            <property name="y">429px</property>
+                            <property name="height">150px</property>
+                            <property name="width">789px</property>
+                            <property name="zIndex">1</property>
+                            <property name="isVisible">false</property>
+                            <property name="height">150px</property>
+                            <property name="width">789px</property>
+                            <property name="caption">
+                                <gadget-caption id="16">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Source Sans Pro"</property>
+                                    <property name="fontSize">24pt</property>
+                                    <property name="fontWeight">bold</property>
+                                    <property name="color">#000000</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <current-selections id="15"/>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+            </property>
+        </dashboard>
+    </property>
+</report>

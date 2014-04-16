@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.actuate.istudio.analysis.model:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.actuate.istudio.analysis.model="http:///com.actuate.istudio.analysis.model.ecore" name="NationalHealthcareApp">
+  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Briefing Book.dashboard" path="/NationalHealthcareApp/Dashboards/Briefing Book.dashboard"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Corporate Strategy.dashboard" path="/NationalHealthcareApp/Dashboards/Corporate Strategy.dashboard"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Healthcare Demo Dashboards.dashboard" path="/NationalHealthcareApp/Dashboards/Healthcare Demo Dashboards.dashboard"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="Health.data" path="/NationalHealthcareApp/Data Objects/Health.data"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:DataDesign" name="Health.datadesign" path="/NationalHealthcareApp/Data Objects/Health.datadesign">
+    <dataSets name="Diagnostics Fact Data Set">
+      <columns name="Contact History Id"/>
+      <columns name="Patient Id"/>
+      <columns name="Prescription Decode"/>
+      <columns name="Diagnostic CIE Decode"/>
+      <columns name="Unit Cost"/>
+      <columns name="Quantity"/>
+      <columns name="Diagnostic Cost"/>
+      <columns name="Contact Date"/>
+      <columns name="Gender"/>
+      <columns name="Occupation"/>
+      <columns name="Income"/>
+      <columns name="Age"/>
+    </dataSets>
+    <dataSets name="Age Band Data Set">
+      <columns name="Age"/>
+      <columns name="Age Numeric"/>
+    </dataSets>
+    <dataSets name="Contact Date Data Set">
+      <columns name="Contact Date"/>
+      <columns name="Contact Date Month"/>
+      <columns name="Contact Date Quarter"/>
+      <columns name="Contact Date Semester"/>
+      <columns name="Contact Date Week No"/>
+      <columns name="Contact Date Year"/>
+      <columns name="Contact Date WeekDay"/>
+    </dataSets>
+    <dataSets name="Diagnostic Data Set">
+      <columns name="Diagnostic CIE"/>
+      <columns name="Diagnostic CIE Decode"/>
+    </dataSets>
+    <dataSets name="Gender Data Set">
+      <columns name="Gender"/>
+      <columns name="Gender Decode"/>
+    </dataSets>
+    <dataSets name="Income Data Set">
+      <columns name="Income"/>
+      <columns name="Income Numeric"/>
+    </dataSets>
+    <dataSets name="Occupation Data Set">
+      <columns name="Occupation"/>
+      <columns name="Occupation Decode"/>
+    </dataSets>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="MapDiagnositc.data" path="/NationalHealthcareApp/Data Objects/MapDiagnositc.data">
+    <targetReportsMap key="//@files.7" value="1"/>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:DataDesign" name="MapDiagnositc.datadesign" path="/NationalHealthcareApp/Data Objects/MapDiagnositc.datadesign">
+    <dataSets name="DiagnosticData">
+      <columns name="id"/>
+      <columns name="stateid"/>
+      <columns name="county"/>
+      <columns name="state"/>
+      <columns name="rate"/>
+      <columns name="diagnosis"/>
+      <columns name="Pct" expression="row[&quot;rate&quot;]*100"/>
+    </dataSets>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="Health-IL.rptdesign" path="/NationalHealthcareApp/Report Designs/Health-IL.rptdesign">
+    <dataMap key="//@files.5" value="1"/>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptLibrary" name="ThemesReportItems3.rptlibrary" path="/NationalHealthcareApp/ThemesReportItems3.rptlibrary"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Overall Health.dashboard" path="/NationalHealthcareApp/Dashboards/Overall Health.dashboard"/>
+</com.actuate.istudio.analysis.model:Project>
