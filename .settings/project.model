@@ -1,57 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.actuate.istudio.analysis.model:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.actuate.istudio.analysis.model="http:///com.actuate.istudio.analysis.model.ecore" name="NationalHealthcareApp">
-  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Briefing Book.dashboard" path="/NationalHealthcareApp/Dashboards/Briefing Book.dashboard"/>
-  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Corporate Strategy.dashboard" path="/NationalHealthcareApp/Dashboards/Corporate Strategy.dashboard"/>
-  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Healthcare Demo Dashboards.dashboard" path="/NationalHealthcareApp/Dashboards/Healthcare Demo Dashboards.dashboard"/>
-  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="Health.data" path="/NationalHealthcareApp/Data Objects/Health.data"/>
-  <files xsi:type="com.actuate.istudio.analysis.model:DataDesign" name="Health.datadesign" path="/NationalHealthcareApp/Data Objects/Health.datadesign">
-    <dataSets name="Diagnostics Fact Data Set">
-      <columns name="Contact History Id"/>
-      <columns name="Patient Id"/>
-      <columns name="Prescription Decode"/>
-      <columns name="Diagnostic CIE Decode"/>
-      <columns name="Unit Cost"/>
-      <columns name="Quantity"/>
-      <columns name="Diagnostic Cost"/>
-      <columns name="Contact Date"/>
-      <columns name="Gender"/>
-      <columns name="Occupation"/>
-      <columns name="Income"/>
-      <columns name="Age"/>
-    </dataSets>
-    <dataSets name="Age Band Data Set">
-      <columns name="Age"/>
-      <columns name="Age Numeric"/>
-    </dataSets>
-    <dataSets name="Contact Date Data Set">
-      <columns name="Contact Date"/>
-      <columns name="Contact Date Month"/>
-      <columns name="Contact Date Quarter"/>
-      <columns name="Contact Date Semester"/>
-      <columns name="Contact Date Week No"/>
-      <columns name="Contact Date Year"/>
-      <columns name="Contact Date WeekDay"/>
-    </dataSets>
-    <dataSets name="Diagnostic Data Set">
-      <columns name="Diagnostic CIE"/>
-      <columns name="Diagnostic CIE Decode"/>
-    </dataSets>
-    <dataSets name="Gender Data Set">
-      <columns name="Gender"/>
-      <columns name="Gender Decode"/>
-    </dataSets>
-    <dataSets name="Income Data Set">
-      <columns name="Income"/>
-      <columns name="Income Numeric"/>
-    </dataSets>
-    <dataSets name="Occupation Data Set">
-      <columns name="Occupation"/>
-      <columns name="Occupation Decode"/>
-    </dataSets>
-  </files>
-  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="MapDiagnositc.data" path="/NationalHealthcareApp/Data Objects/MapDiagnositc.data">
-    <targetReportsMap key="//@files.7" value="1"/>
-  </files>
   <files xsi:type="com.actuate.istudio.analysis.model:DataDesign" name="MapDiagnositc.datadesign" path="/NationalHealthcareApp/Data Objects/MapDiagnositc.datadesign">
     <dataSets name="DiagnosticData">
       <columns name="id"/>
@@ -63,9 +11,153 @@
       <columns name="Pct" expression="row[&quot;rate&quot;]*100"/>
     </dataSets>
   </files>
-  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="Health-IL.rptdesign" path="/NationalHealthcareApp/Report Designs/Health-IL.rptdesign">
-    <dataMap key="//@files.5" value="1"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptLibrary" name="ThemesReportItems3.rptlibrary" path="/NationalHealthcareApp/ThemesReportItems3.rptlibrary" reports="//@files.3 //@files.4 //@files.5 //@files.6 //@files.7 //@files.8 //@files.9 //@files.10 //@files.12"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="MapDiagnositc.data" path="/NationalHealthcareApp/Data Objects/MapDiagnositc.data">
+    <targetReportsMap key="//@files.3" value="1"/>
   </files>
-  <files xsi:type="com.actuate.istudio.analysis.model:RptLibrary" name="ThemesReportItems3.rptlibrary" path="/NationalHealthcareApp/ThemesReportItems3.rptlibrary"/>
-  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Overall Health.dashboard" path="/NationalHealthcareApp/Dashboards/Overall Health.dashboard"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="Health-IL.rptdesign" path="/NationalHealthcareApp/Report Designs/Health-IL.rptdesign" libraries="//@files.1">
+    <dataMap key="//@files.2" value="1"/>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="Healthcare Scorecard.rptdesign" path="/NationalHealthcareApp/Report Designs/Healthcare Scorecard.rptdesign" libraries="//@files.1"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="MetricsOverTime_CoreMeasures.rptdesign" path="/NationalHealthcareApp/Report Designs/MetricsOverTime_CoreMeasures.rptdesign" libraries="//@files.1"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="MetricsOverTime_Finance.rptdesign" path="/NationalHealthcareApp/Report Designs/MetricsOverTime_Finance.rptdesign" libraries="//@files.1"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="MetricsOverTime_PatientSatisfaction.rptdesign" path="/NationalHealthcareApp/Report Designs/MetricsOverTime_PatientSatisfaction.rptdesign" libraries="//@files.1"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="MetricsOverTime_Safety.rptdesign" path="/NationalHealthcareApp/Report Designs/MetricsOverTime_Safety.rptdesign" libraries="//@files.1"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="MetricsOverTime_dashboard.rptdesign" path="/NationalHealthcareApp/Report Designs/MetricsOverTime_dashboard.rptdesign" libraries="//@files.1"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="Patient Data.rptdesign" path="/NationalHealthcareApp/Report Designs/Patient Data.rptdesign" libraries="//@files.1">
+    <dataSets name="Patient Data">
+      <columns name="Patient ID"/>
+      <columns name="Diagnosis"/>
+      <columns name="Prescription"/>
+      <columns name="Appt Date"/>
+      <columns name="Would Recommend"/>
+      <columns name="Gender"/>
+      <columns name="Cost"/>
+    </dataSets>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="Patients.rptdesign" path="/NationalHealthcareApp/Report Designs/Patients.rptdesign">
+    <dataSets name="Grow Customer Accounts">
+      <columns name="Measure Name"/>
+      <columns name="Location Name"/>
+      <columns name="Reporting Period"/>
+      <columns name="Series Name"/>
+      <columns name="Series Data"/>
+      <columns name="Comparative Name"/>
+      <columns name="Comparative Data"/>
+      <columns name="Variance"/>
+      <columns name="Variance Percentage"/>
+      <columns name="Performance Index"/>
+      <columns name="Index Range"/>
+      <columns name="Color"/>
+      <columns name="Text Color"/>
+      <columns name="YTD Actual"/>
+      <columns name="YTD Comparative Data"/>
+      <columns name="YTD Comparative Variance"/>
+      <columns name="YTD Comparative Variance Percentage"/>
+      <columns name="YTD Performance Index"/>
+      <columns name="YTD Index Range"/>
+      <columns name="YTD Color"/>
+      <columns name="YTD Text Color"/>
+      <columns name="MeasureID"/>
+      <columns name="LocationID"/>
+      <columns name="PeriodID"/>
+      <columns name="Date"/>
+    </dataSets>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="PerformanceIndicators.rptdesign" path="/NationalHealthcareApp/Report Designs/PerformanceIndicators.rptdesign" libraries="//@files.1"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptLibrary" name="ThemesReportItems.rptlibrary" path="/NationalHealthcareApp/ThemesReportItems.rptlibrary"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Cost Of Care.dashboard" path="/NationalHealthcareApp/Dashboards/Cost Of Care.dashboard"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Healthcare Dashboards.dashboard" path="/NationalHealthcareApp/Dashboards/Healthcare Dashboards.dashboard"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Key Performance Trends.dashboard" path="/NationalHealthcareApp/Dashboards/Key Performance Trends.dashboard"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Overall Healthcare KPI View.dashboard" path="/NationalHealthcareApp/Dashboards/Overall Healthcare KPI View.dashboard"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Performance Indicators.dashboard" path="/NationalHealthcareApp/Dashboards/Performance Indicators.dashboard"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="Healthcare Scorecard.data" path="/NationalHealthcareApp/Data Objects/Healthcare Scorecard.data"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:DataDesign" name="Healthcare Scorecard.datadesign" path="/NationalHealthcareApp/Data Objects/Healthcare Scorecard.datadesign">
+    <dataSets name="List of Views">
+      <columns name="Id"/>
+      <columns name="Name"/>
+      <columns name="Description"/>
+      <columns name="SeqNo"/>
+    </dataSets>
+    <dataSets name="Measure Meta data">
+      <columns name="MeasureName"/>
+      <columns name="LocationName"/>
+      <columns name="Description"/>
+      <columns name="Notes"/>
+      <columns name="Critical"/>
+      <columns name="Owner"/>
+      <columns name="OwnerAssistant"/>
+      <columns name="Link"/>
+      <columns name="UnitName"/>
+      <columns name="UnitDescription"/>
+      <columns name="UnitPrefix"/>
+      <columns name="UnitSuffix"/>
+      <columns name="UnitThousandSeparator"/>
+      <columns name="UnitDecimalSeparator"/>
+      <columns name="UnitWholeDigits"/>
+      <columns name="UnitDecimalDigits"/>
+      <columns name="Kind"/>
+      <columns name="Polarity"/>
+      <columns name="StoragePeriod"/>
+      <columns name="ConsolidationPeriod"/>
+      <columns name="LocationConsolidation"/>
+      <columns name="LocationIgnoreBlank"/>
+      <columns name="PeriodConsolidation"/>
+      <columns name="PeriodIgnoreBlank"/>
+      <columns name="OrderOfCalculation"/>
+      <columns name="Formula"/>
+      <columns name="Submeasures"/>
+    </dataSets>
+    <dataSets name="Hierarchy Info From View">
+      <columns name="MeasureLevel"/>
+      <columns name="ParentMeasureName"/>
+      <columns name="MeasureName"/>
+      <columns name="LocationLevel"/>
+      <columns name="ParentLocationName"/>
+      <columns name="LocationName"/>
+      <columns name="PeriodName"/>
+      <columns name="BaseName"/>
+      <columns name="BaseData"/>
+      <columns name="CompName"/>
+      <columns name="CompData"/>
+      <columns name="CompVar"/>
+      <columns name="CompVarPct"/>
+      <columns name="CompIdx"/>
+      <columns name="CompIdxRangeId"/>
+      <columns name="CompIdxColor"/>
+      <columns name="CompTxtColor"/>
+      <columns name="WorstMsrIdxRangeId"/>
+      <columns name="WorstMsrIdxColor"/>
+      <columns name="WorstLocIdxRangeId"/>
+      <columns name="WorstLocIdxColor"/>
+    </dataSets>
+    <dataSets name="Data From View">
+      <columns name="MeasureName"/>
+      <columns name="LocationName"/>
+      <columns name="PeriodName"/>
+      <columns name="BaseName"/>
+      <columns name="BaseData"/>
+      <columns name="CompName"/>
+      <columns name="CompData"/>
+      <columns name="CompVar"/>
+      <columns name="CompVarPct"/>
+      <columns name="CompIdx"/>
+      <columns name="CompIdxRangeId"/>
+      <columns name="CompIdxColor"/>
+      <columns name="CompTxtColor"/>
+      <columns name="WorstMsrIdxRangeId"/>
+      <columns name="WorstMsrIdxColor"/>
+      <columns name="WorstLocIdxRangeId"/>
+      <columns name="WorstLocIdxColor"/>
+    </dataSets>
+    <dataSets name="Commentary">
+      <columns name="MeasureName"/>
+      <columns name="LocationName"/>
+      <columns name="PeriodName"/>
+      <columns name="CommentaryType"/>
+      <columns name="CommentaryText"/>
+      <columns name="SignatureName"/>
+      <columns name="SignatureTime"/>
+    </dataSets>
+  </files>
 </com.actuate.istudio.analysis.model:Project>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.2.3.v20131216-0430 Build &lt;4.2.3.v20131216-0430></property>
+    <property name="layoutPreference">auto layout</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">ThemesReportItems3.rptlibrary</property>
+            <property name="namespace">ThemesReportItems3</property>
+        </structure>
+    </list-property>
+    <property name="dashboardView">
+        <dashboard id="2">
+            <property name="activeTab">180a3b33-87c3-4efd-af27-ac689d7b111c</property>
+            <property name="tabs">
+                <tab-element name="180a3b33-87c3-4efd-af27-ac689d7b111c" id="3">
+                    <property name="title">Performance Indicators</property>
+                    <property name="backgroundColor">auto</property>
+                    <property name="freeFormGadgets">
+                        <gadget name="Gadget_305e0445-d032-4905-aecc-5f8d97407e63" id="9">
+                            <property name="x">18px</property>
+                            <property name="y">90px</property>
+                            <property name="height">761px</property>
+                            <property name="width">1320px</property>
+                            <property name="title">Performance Indicators</property>
+                            <property name="externalGadgetURI">^/Report Designs/KeyPerformanceTrends_rebecca.rptdesign</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">2</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">761px</property>
+                            <property name="width">1320px</property>
+                            <property name="caption">
+                                <gadget-caption id="10">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Source Sans Pro"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="11">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/National Healthcare/Report Designs/PerformanceIndicators.rptdesign</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="paramSettings">
+                                        <param-setting>
+                                            <property name="paramName">Location</property>
+                                            <expression name="value">All Hospitals</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">All Hospitals</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">1st Measure Column</property>
+                                            <expression name="value">Financial</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Financial</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">2nd Measure Column</property>
+                                            <expression name="value">Patient Satisfaction</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Patient Satisfaction</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">3rd Measure Column</property>
+                                            <expression name="value">Core Measures</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Core Measures</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">4th Measure Column</property>
+                                            <expression name="value">Safety</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Safety</expression>
+                                        </param-setting>
+                                    </property>
+                                </data-view>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_5cd73684-4627-4903-879c-30e7221d02ff</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="f7d977a8-310c-4541-8aae-8cccb96c6fa8" id="6">
+                            <property name="x">10px</property>
+                            <property name="y">744px</property>
+                            <property name="height">150px</property>
+                            <property name="width">667px</property>
+                            <property name="zIndex">1</property>
+                            <property name="isVisible">false</property>
+                            <property name="height">150px</property>
+                            <property name="width">667px</property>
+                            <property name="caption">
+                                <gadget-caption id="8">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"tahoma", "arial", "verdana", sans-serif</property>
+                                    <property name="fontSize">8pt</property>
+                                    <property name="fontWeight">bold</property>
+                                    <property name="color">#000000</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <current-selections id="7"/>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">Gadget_5cd73684-4627-4903-879c-30e7221d02ff</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_5cd73684-4627-4903-879c-30e7221d02ff" id="15">
+                            <property name="x">18px</property>
+                            <property name="y">0px</property>
+                            <property name="height">35px</property>
+                            <property name="width">1320px</property>
+                            <property name="title">Select Facility</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">0</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">35px</property>
+                            <property name="width">1320px</property>
+                            <property name="caption">
+                                <gadget-caption id="16">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Source Sans Pro"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#666666</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <radio-data-selector id="17">
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Applications/National Healthcare/Report Designs/PerformanceIndicators.rptdesign</property>
+                                            <property name="targetBookmark">Location</property>
+                                            <property name="isNoValueSupported">false</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="operator">eq</property>
+                                    <property name="controlType">list-box</property>
+                                    <property name="dataType">string</property>
+                                    <simple-property-list name="selectedValues">
+                                        <value>All Hospitals</value>
+                                    </simple-property-list>
+                                    <property name="orientation">horizontal</property>
+                                    <property name="autoAdjust">false</property>
+                                    <property name="autoAdjustNumber">6</property>
+                                    <property name="listLimit">1000</property>
+                                </radio-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">f7d977a8-310c-4541-8aae-8cccb96c6fa8</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_305e0445-d032-4905-aecc-5f8d97407e63</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+            </property>
+        </dashboard>
+    </property>
+</report>

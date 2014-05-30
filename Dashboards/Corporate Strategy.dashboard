@@ -44,38 +44,35 @@
         <text name="2dbf6c4a-bc01-43c5-a158-bcc4533bca54" id="21">
             <text-property name="content"><![CDATA[]]></text-property>
         </text>
-        <text name="d0471fe5-ce01-42f5-b2da-7eb11eb5518b" id="31">
-            <text-property name="content"><![CDATA[]]></text-property>
-        </text>
     </body>
     <property name="dashboardView">
         <dashboard id="4">
-            <property name="activeTab">9362436e-3dae-4c13-8312-ab6900afe942</property>
+            <property name="activeTab">a85c1d0a-ffb6-42d5-b624-bbac5298b0f7</property>
             <property name="tabs">
-                <tab-element name="9362436e-3dae-4c13-8312-ab6900afe942" id="23">
+                <tab-element name="a85c1d0a-ffb6-42d5-b624-bbac5298b0f7" id="13">
                     <property name="title">Corporate Strategy</property>
                     <property name="freeFormGadgets">
-                        <gadget name="c62fb7ff-7280-4593-9b7c-77134768630f" id="29">
+                        <gadget name="8cc65e82-48dd-4027-80df-e8695cdd0bce" id="19">
                             <list-property name="userProperties">
                                 <structure>
                                     <property name="name">candidateId</property>
                                     <property name="type">string</property>
                                 </structure>
                             </list-property>
-                            <property name="candidateId">983806686</property>
-                            <property name="x">141px</property>
-                            <property name="y">11px</property>
-                            <property name="height">600px</property>
-                            <property name="width">1086px</property>
+                            <property name="candidateId">671529961</property>
+                            <property name="x">127px</property>
+                            <property name="y">1px</property>
+                            <property name="height">613px</property>
+                            <property name="width">1031px</property>
                             <property name="title">New Performance Map Gadget 1</property>
                             <property name="gadgetContentType">html</property>
-                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
                             <property name="zIndex">2</property>
                             <property name="showScrollBar">false</property>
-                            <property name="height">600px</property>
-                            <property name="width">1086px</property>
+                            <property name="height">613px</property>
+                            <property name="width">1031px</property>
                             <property name="caption">
-                                <gadget-caption id="30">
+                                <gadget-caption id="20">
                                     <property name="showCaption">false</property>
                                     <property name="horizontalAlignment">left</property>
                                     <property name="fontFamily">"Source Sans Pro"</property>
@@ -87,23 +84,23 @@
                                 </gadget-caption>
                             </property>
                             <property name="content">
-                                <data-view id="32">
+                                <data-view id="22">
                                     <property name="gadgetType">Map</property>
-                                    <property name="internalReportLetRef">d0471fe5-ce01-42f5-b2da-7eb11eb5518b</property>
+                                    <property name="internalReportLetRef">2dbf6c4a-bc01-43c5-a158-bcc4533bca54</property>
                                 </data-view>
                             </property>
                         </gadget>
-                        <gadget name="00f49966-b3d5-4c82-9475-970778a333f4" id="26">
+                        <gadget name="9c7732ef-45f7-465f-a597-44f4fb0abb55" id="16">
                             <property name="x">10px</property>
                             <property name="y">429px</property>
                             <property name="height">150px</property>
-                            <property name="width">1602px</property>
+                            <property name="width">1192px</property>
                             <property name="zIndex">1</property>
                             <property name="isVisible">false</property>
                             <property name="height">150px</property>
-                            <property name="width">1602px</property>
+                            <property name="width">1192px</property>
                             <property name="caption">
-                                <gadget-caption id="28">
+                                <gadget-caption id="18">
                                     <property name="showCaption">true</property>
                                     <property name="horizontalAlignment">left</property>
                                     <property name="fontFamily">"Source Sans Pro"</property>
@@ -113,7 +110,7 @@
                                 </gadget-caption>
                             </property>
                             <property name="content">
-                                <current-selections id="27"/>
+                                <current-selections id="17"/>
                             </property>
                         </gadget>
                     </property>

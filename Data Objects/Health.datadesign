@@ -387,6 +387,146 @@
             <property name="type">integer</property>
             <property name="isVisible">false</property>
         </structure>
+        <structure>
+            <property name="name">237.Contact Date Data Set.x</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Contact Date Data Set.y</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Contact Date Data Set.width</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Contact Date Data Set.height</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Age Band Data Set.x</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Age Band Data Set.y</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Age Band Data Set.width</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Age Band Data Set.height</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Diagnostics Fact Data Set.x</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Diagnostics Fact Data Set.y</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Diagnostics Fact Data Set.width</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Diagnostics Fact Data Set.height</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Gender Data Set.x</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Gender Data Set.y</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Gender Data Set.width</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Gender Data Set.height</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Diagnostic Data Set.x</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Diagnostic Data Set.y</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Diagnostic Data Set.width</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Diagnostic Data Set.height</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Income Data Set.x</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Income Data Set.y</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Income Data Set.width</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Income Data Set.height</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Occupation Data Set.x</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Occupation Data Set.y</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Occupation Data Set.width</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">237.Occupation Data Set.height</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
     </list-property>
     <property name="Data Cube.Diagnostics Data Set.x">295</property>
     <property name="Data Cube.Diagnostics Data Set.y">104</property>
@@ -465,6 +605,34 @@
     <property name="157.Occupation Data Set.y">140</property>
     <property name="157.Occupation Data Set.width">150</property>
     <property name="157.Occupation Data Set.height">200</property>
+    <property name="237.Contact Date Data Set.x">455</property>
+    <property name="237.Contact Date Data Set.y">13</property>
+    <property name="237.Contact Date Data Set.width">150</property>
+    <property name="237.Contact Date Data Set.height">200</property>
+    <property name="237.Age Band Data Set.x">20</property>
+    <property name="237.Age Band Data Set.y">9</property>
+    <property name="237.Age Band Data Set.width">150</property>
+    <property name="237.Age Band Data Set.height">200</property>
+    <property name="237.Diagnostics Fact Data Set.x">276</property>
+    <property name="237.Diagnostics Fact Data Set.y">12</property>
+    <property name="237.Diagnostics Fact Data Set.width">150</property>
+    <property name="237.Diagnostics Fact Data Set.height">200</property>
+    <property name="237.Gender Data Set.x">147</property>
+    <property name="237.Gender Data Set.y">235</property>
+    <property name="237.Gender Data Set.width">150</property>
+    <property name="237.Gender Data Set.height">200</property>
+    <property name="237.Diagnostic Data Set.x">12</property>
+    <property name="237.Diagnostic Data Set.y">113</property>
+    <property name="237.Diagnostic Data Set.width">150</property>
+    <property name="237.Diagnostic Data Set.height">200</property>
+    <property name="237.Income Data Set.x">433</property>
+    <property name="237.Income Data Set.y">242</property>
+    <property name="237.Income Data Set.width">150</property>
+    <property name="237.Income Data Set.height">200</property>
+    <property name="237.Occupation Data Set.x">209</property>
+    <property name="237.Occupation Data Set.y">238</property>
+    <property name="237.Occupation Data Set.width">150</property>
+    <property name="237.Occupation Data Set.height">200</property>
     <data-sources>
         <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Data Source" id="105">
             <list-property name="privateDriverProperties">
@@ -558,21 +726,14 @@
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">Contact Date</text-property>
                     <text-property name="heading">Contact Date</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
                 </structure>
                 <structure>
                     <property name="columnName">Gender</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">Gender</text-property>
                     <text-property name="heading">Gender</text-property>
-                    <property name="horizontalAlign">left</property>
-                    <property name="indexColumn">true</property>
-                    <property name="compressed">false</property>
-                </structure>
-                <structure>
-                    <property name="columnName">Occupation</property>
-                    <property name="analysis">dimension</property>
-                    <text-property name="displayName">Occupation</text-property>
-                    <text-property name="heading">Occupation</text-property>
                     <property name="horizontalAlign">left</property>
                     <property name="indexColumn">true</property>
                     <property name="compressed">false</property>
@@ -647,16 +808,11 @@
                     </structure>
                     <structure>
                         <property name="position">10</property>
-                        <property name="name">Occupation</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">11</property>
                         <property name="name">Income</property>
                         <property name="dataType">float</property>
                     </structure>
                     <structure>
-                        <property name="position">12</property>
+                        <property name="position">11</property>
                         <property name="name">Age</property>
                         <property name="dataType">integer</property>
                     </structure>
@@ -729,20 +885,13 @@
                 </structure>
                 <structure>
                     <property name="position">10</property>
-                    <property name="name">Occupation</property>
-                    <property name="nativeName">Occupation</property>
-                    <property name="dataType">string</property>
-                    <property name="nativeDataType">12</property>
-                </structure>
-                <structure>
-                    <property name="position">11</property>
                     <property name="name">Income</property>
                     <property name="nativeName">Income</property>
                     <property name="dataType">float</property>
                     <property name="nativeDataType">6</property>
                 </structure>
                 <structure>
-                    <property name="position">12</property>
+                    <property name="position">11</property>
                     <property name="name">Age</property>
                     <property name="nativeName">Age</property>
                     <property name="dataType">integer</property>
@@ -759,7 +908,6 @@
 	,d.[Diagnostic Cost]
 	,c.[Contact Date]
 	,p.[Gender]
-	,p.[Occupation]
 	,p.[Income]
 	,p.[Age]
 from 
@@ -1696,11 +1844,26 @@ ORDER BY [Gender],[Gender Decode]]]></xml-property>
         </oda-data-set>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Income Data Set" id="134">
             <property name="isVisible">false</property>
+            <list-property name="computedColumns">
+                <structure>
+                    <property name="name">Income Band</property>
+                    <expression name="expression" type="javascript">if  (row["Income"] == 0) &#13;
+{&#13;
+    "10K under";&#13;
+ }&#13;
+else &#13;
+ {&#13;
+    row["Income Numeric"];&#13;
+ }</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
             <list-property name="columnHints">
                 <structure>
                     <property name="columnName">Income</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">Income</text-property>
+                    <property name="onColumnLayout">false</property>
                     <text-property name="heading">Income</text-property>
                     <property name="horizontalAlign">right</property>
                     <property name="indexColumn">true</property>
@@ -1710,12 +1873,18 @@ ORDER BY [Gender],[Gender Decode]]]></xml-property>
                     <property name="columnName">Income Numeric</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">Income Numeric</text-property>
+                    <property name="onColumnLayout">false</property>
                     <text-property name="heading">Income Numeric</text-property>
                     <property name="indexColumn">false</property>
                     <property name="compressed">false</property>
                 </structure>
+                <structure>
+                    <property name="columnName">Income Band</property>
+                    <property name="analysis">dimension</property>
+                </structure>
             </list-property>
             <list-property name="filter"/>
+            <list-property name="parameters"/>
             <structure name="cachedMetaData">
                 <list-property name="resultSet">
                     <structure>
@@ -1726,6 +1895,11 @@ ORDER BY [Gender],[Gender Decode]]]></xml-property>
                     <structure>
                         <property name="position">2</property>
                         <property name="name">Income Numeric</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">Income Band</property>
                         <property name="dataType">string</property>
                     </structure>
                 </list-property>
@@ -1806,401 +1980,235 @@ ORDER BY [Income]]]></xml-property>
   </design:ResultSets>
 </model:DesignValues>]]></xml-property>
         </oda-data-set>
-        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Occupation Data Set" id="138">
-            <property name="isVisible">false</property>
-            <list-property name="columnHints">
-                <structure>
-                    <property name="columnName">Occupation</property>
-                    <property name="analysis">dimension</property>
-                    <text-property name="displayName">Occupation</text-property>
-                    <text-property name="heading">Occupation</text-property>
-                    <property name="horizontalAlign">left</property>
-                    <property name="indexColumn">true</property>
-                    <property name="compressed">false</property>
-                </structure>
-                <structure>
-                    <property name="columnName">Occupation Decode</property>
-                    <property name="analysis">dimension</property>
-                    <text-property name="displayName">Occupation Decode</text-property>
-                    <text-property name="heading">Occupation Decode</text-property>
-                    <property name="indexColumn">false</property>
-                    <property name="compressed">false</property>
-                </structure>
-            </list-property>
-            <structure name="cachedMetaData">
-                <list-property name="resultSet">
-                    <structure>
-                        <property name="position">1</property>
-                        <property name="name">Occupation</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">2</property>
-                        <property name="name">Occupation Decode</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                </list-property>
-            </structure>
-            <property name="dataSource">Data Source</property>
-            <list-property name="resultSet">
-                <structure>
-                    <property name="position">1</property>
-                    <property name="name">Occupation</property>
-                    <property name="nativeName">Occupation</property>
-                    <property name="dataType">string</property>
-                    <property name="nativeDataType">12</property>
-                </structure>
-                <structure>
-                    <property name="position">2</property>
-                    <property name="name">Occupation Decode</property>
-                    <property name="nativeName">Occupation Decode</property>
-                    <property name="dataType">string</property>
-                    <property name="nativeDataType">12</property>
-                </structure>
-            </list-property>
-            <xml-property name="queryText"><![CDATA[SELECT [Occupation]
-      ,[Occupation Decode]
-FROM [Health].[dbo].[Patient]
-WHERE [Occupation] != ''
-GROUP BY [Occupation],[Occupation Decode]
-ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
-            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
-  <Version>2.0</Version>
-  <design:ResultSets derivedMetaData="true">
-    <design:resultSetDefinitions>
-      <design:resultSetColumns>
-        <design:resultColumnDefinitions>
-          <design:attributes>
-            <design:identifier>
-              <design:name>Occupation</design:name>
-              <design:position>1</design:position>
-            </design:identifier>
-            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
-            <design:precision>50</design:precision>
-            <design:scale>0</design:scale>
-            <design:nullability>Nullable</design:nullability>
-            <design:uiHints>
-              <design:displayName>Occupation</design:displayName>
-            </design:uiHints>
-          </design:attributes>
-          <design:usageHints>
-            <design:label>Occupation</design:label>
-            <design:formattingHints>
-              <design:displaySize>50</design:displaySize>
-            </design:formattingHints>
-          </design:usageHints>
-        </design:resultColumnDefinitions>
-        <design:resultColumnDefinitions>
-          <design:attributes>
-            <design:identifier>
-              <design:name>Occupation Decode</design:name>
-              <design:position>2</design:position>
-            </design:identifier>
-            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
-            <design:precision>50</design:precision>
-            <design:scale>0</design:scale>
-            <design:nullability>Nullable</design:nullability>
-            <design:uiHints>
-              <design:displayName>Occupation Decode</design:displayName>
-            </design:uiHints>
-          </design:attributes>
-          <design:usageHints>
-            <design:label>Occupation Decode</design:label>
-            <design:formattingHints>
-              <design:displaySize>50</design:displaySize>
-            </design:formattingHints>
-          </design:usageHints>
-        </design:resultColumnDefinitions>
-      </design:resultSetColumns>
-      <design:criteria/>
-    </design:resultSetDefinitions>
-  </design:ResultSets>
-</model:DesignValues>]]></xml-property>
-        </oda-data-set>
     </data-sets>
     <property name="linkedDataModels">
-        <linked-data-model name="Data Model" id="157">
+        <linked-data-model name="Data Model" id="293">
             <property name="aliasDataSets">
-                <alias-data-set name="Diagnostics Fact Data Set" id="194">
+                <alias-data-set name="Diagnostics Fact Data Set" id="327">
                     <property name="originDataSet">Diagnostics Fact Data Set</property>
                 </alias-data-set>
-                <alias-data-set name="Age Band Data Set" id="195">
+                <alias-data-set name="Age Band Data Set" id="328">
                     <property name="originDataSet">Age Band Data Set</property>
                 </alias-data-set>
-                <alias-data-set name="Contact Date Data Set" id="196">
+                <alias-data-set name="Contact Date Data Set" id="329">
                     <property name="originDataSet">Contact Date Data Set</property>
                 </alias-data-set>
-                <alias-data-set name="Diagnostic Data Set" id="197">
+                <alias-data-set name="Diagnostic Data Set" id="330">
                     <property name="originDataSet">Diagnostic Data Set</property>
                 </alias-data-set>
-                <alias-data-set name="Gender Data Set" id="198">
+                <alias-data-set name="Gender Data Set" id="331">
                     <property name="originDataSet">Gender Data Set</property>
                 </alias-data-set>
-                <alias-data-set name="Income Data Set" id="199">
+                <alias-data-set name="Income Data Set" id="332">
                     <property name="originDataSet">Income Data Set</property>
-                </alias-data-set>
-                <alias-data-set name="Occupation Data Set" id="200">
-                    <property name="originDataSet">Occupation Data Set</property>
                 </alias-data-set>
             </property>
             <property name="columnLinks">
-                <column-link id="226">
+                <column-link id="333">
                     <structure name="leftColumn">
-                        <property name="position">2</property>
-                        <property name="name">Diagnostic CIE Decode</property>
-                        <property name="dataType">string</property>
+                        <property name="position">11</property>
+                        <property name="name">Age</property>
+                        <property name="dataType">integer</property>
                     </structure>
                     <structure name="rightColumn">
+                        <property name="position">1</property>
+                        <property name="name">Age</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <property name="leftAliasDataSet">Data Model/Diagnostics Fact Data Set</property>
+                    <property name="rightAliasDataSet">Data Model/Age Band Data Set</property>
+                    <property name="allowPushdown">false</property>
+                </column-link>
+                <column-link id="334">
+                    <structure name="leftColumn">
+                        <property name="position">8</property>
+                        <property name="name">Contact Date</property>
+                        <property name="dataType">date</property>
+                    </structure>
+                    <structure name="rightColumn">
+                        <property name="position">1</property>
+                        <property name="name">Contact Date</property>
+                        <property name="dataType">date</property>
+                    </structure>
+                    <property name="leftAliasDataSet">Data Model/Diagnostics Fact Data Set</property>
+                    <property name="rightAliasDataSet">Data Model/Contact Date Data Set</property>
+                    <property name="allowPushdown">false</property>
+                </column-link>
+                <column-link id="335">
+                    <structure name="leftColumn">
                         <property name="position">4</property>
                         <property name="name">Diagnostic CIE Decode</property>
                         <property name="dataType">string</property>
                     </structure>
-                    <property name="leftAliasDataSet">Data Model/Diagnostic Data Set</property>
-                    <property name="rightAliasDataSet">Data Model/Diagnostics Fact Data Set</property>
-                    <property name="allowPushdown">false</property>
-                </column-link>
-                <column-link id="227">
-                    <structure name="leftColumn">
-                        <property name="position">1</property>
-                        <property name="name">Age</property>
-                        <property name="dataType">integer</property>
-                    </structure>
                     <structure name="rightColumn">
-                        <property name="position">12</property>
-                        <property name="name">Age</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <property name="leftAliasDataSet">Data Model/Age Band Data Set</property>
-                    <property name="rightAliasDataSet">Data Model/Diagnostics Fact Data Set</property>
-                    <property name="allowPushdown">false</property>
-                </column-link>
-                <column-link id="228">
-                    <structure name="leftColumn">
-                        <property name="position">1</property>
-                        <property name="name">Income</property>
-                        <property name="dataType">float</property>
-                    </structure>
-                    <structure name="rightColumn">
-                        <property name="position">11</property>
-                        <property name="name">Income</property>
-                        <property name="dataType">float</property>
-                    </structure>
-                    <property name="leftAliasDataSet">Data Model/Income Data Set</property>
-                    <property name="rightAliasDataSet">Data Model/Diagnostics Fact Data Set</property>
-                    <property name="allowPushdown">false</property>
-                </column-link>
-                <column-link id="229">
-                    <structure name="leftColumn">
-                        <property name="position">1</property>
-                        <property name="name">Contact Date</property>
+                        <property name="position">2</property>
+                        <property name="name">Diagnostic CIE Decode</property>
                         <property name="dataType">string</property>
                     </structure>
-                    <structure name="rightColumn">
-                        <property name="position">8</property>
-                        <property name="name">Contact Date</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <property name="leftAliasDataSet">Data Model/Contact Date Data Set</property>
-                    <property name="rightAliasDataSet">Data Model/Diagnostics Fact Data Set</property>
+                    <property name="leftAliasDataSet">Data Model/Diagnostics Fact Data Set</property>
+                    <property name="rightAliasDataSet">Data Model/Diagnostic Data Set</property>
                     <property name="allowPushdown">false</property>
                 </column-link>
-                <column-link id="230">
+                <column-link id="336">
                     <structure name="leftColumn">
-                        <property name="position">1</property>
-                        <property name="name">Occupation</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure name="rightColumn">
-                        <property name="position">10</property>
-                        <property name="name">Occupation</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <property name="leftAliasDataSet">Data Model/Occupation Data Set</property>
-                    <property name="rightAliasDataSet">Data Model/Diagnostics Fact Data Set</property>
-                    <property name="allowPushdown">false</property>
-                </column-link>
-                <column-link id="231">
-                    <structure name="leftColumn">
-                        <property name="position">1</property>
-                        <property name="name">Gender</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure name="rightColumn">
                         <property name="position">9</property>
                         <property name="name">Gender</property>
                         <property name="dataType">string</property>
                     </structure>
-                    <property name="leftAliasDataSet">Data Model/Gender Data Set</property>
-                    <property name="rightAliasDataSet">Data Model/Diagnostics Fact Data Set</property>
+                    <structure name="rightColumn">
+                        <property name="position">1</property>
+                        <property name="name">Gender</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <property name="leftAliasDataSet">Data Model/Diagnostics Fact Data Set</property>
+                    <property name="rightAliasDataSet">Data Model/Gender Data Set</property>
+                    <property name="allowPushdown">false</property>
+                </column-link>
+                <column-link id="337">
+                    <structure name="leftColumn">
+                        <property name="position">10</property>
+                        <property name="name">Income</property>
+                        <property name="dataType">float</property>
+                    </structure>
+                    <structure name="rightColumn">
+                        <property name="position">1</property>
+                        <property name="name">Income</property>
+                        <property name="dataType">float</property>
+                    </structure>
+                    <property name="leftAliasDataSet">Data Model/Diagnostics Fact Data Set</property>
+                    <property name="rightAliasDataSet">Data Model/Income Data Set</property>
                     <property name="allowPushdown">false</property>
                 </column-link>
             </property>
             <property name="drillPaths">
-                <drill-path id="201">
-                    <text-property name="displayName">Age Band</text-property>
+                <drill-path id="338">
+                    <text-property name="displayName">Age</text-property>
                     <simple-property-list name="drillPathColumns">
                         <value>dataSetRow["Age Band"]</value>
                         <value>dataSetRow["Age"]</value>
                     </simple-property-list>
                 </drill-path>
-                <drill-path id="213">
-                    <text-property name="displayName">Year</text-property>
-                    <simple-property-list name="drillPathColumns">
-                        <value>dataSetRow["Contact Date Year"]</value>
-                        <value>dataSetRow["Contact Date Quarter"]</value>
-                    </simple-property-list>
-                </drill-path>
-                <drill-path id="225">
+                <drill-path id="339">
                     <text-property name="displayName">Diagnosis</text-property>
                     <simple-property-list name="drillPathColumns">
-                        <value>dataSetRow["Diagnostic CIE Decode"]</value>
-                        <value>dataSetRow["Prescription Decode"]</value>
+                        <value>dataSetRow["Diagnosis"]</value>
+                        <value>dataSetRow["Prescription"]</value>
+                    </simple-property-list>
+                </drill-path>
+                <drill-path id="340">
+                    <text-property name="displayName">Contact Date</text-property>
+                    <simple-property-list name="drillPathColumns">
+                        <value>dataSetRow["Contact Date"]["Year"]</value>
+                        <value>dataSetRow["Contact Date"]["Quarter"]</value>
                     </simple-property-list>
                 </drill-path>
             </property>
             <property name="categories">
-                <category name="Diagnostics Fact Data Set" id="158">
+                <category name="Diagnostics Fact Data Set" id="294">
                     <property name="categoryColumns">
-                        <category-column name="Contact History Id" id="159">
-                            <property name="aliasDataSet">Data Model/Diagnostics Fact Data Set</property>
-                            <property name="resultSetColumnName">Contact History Id</property>
-                        </category-column>
-                        <category-column name="Patient Id" id="160">
+                        <category-column name="Patient Id" id="296">
                             <property name="aliasDataSet">Data Model/Diagnostics Fact Data Set</property>
                             <property name="resultSetColumnName">Patient Id</property>
                         </category-column>
-                        <category-column name="Prescription Decode" id="161">
+                        <category-column name="Prescription" id="297">
                             <property name="aliasDataSet">Data Model/Diagnostics Fact Data Set</property>
                             <property name="resultSetColumnName">Prescription Decode</property>
                         </category-column>
-                        <category-column name="Diagnostic CIE Decode" id="162">
+                        <category-column name="Diagnostic" id="298">
                             <property name="aliasDataSet">Data Model/Diagnostics Fact Data Set</property>
                             <property name="resultSetColumnName">Diagnostic CIE Decode</property>
                         </category-column>
-                        <category-column name="Unit Cost" id="163">
+                        <category-column name="Unit Cost" id="299">
                             <property name="aliasDataSet">Data Model/Diagnostics Fact Data Set</property>
                             <property name="resultSetColumnName">Unit Cost</property>
                         </category-column>
-                        <category-column name="Quantity" id="164">
+                        <category-column name="Quantity" id="300">
                             <property name="aliasDataSet">Data Model/Diagnostics Fact Data Set</property>
                             <property name="resultSetColumnName">Quantity</property>
                         </category-column>
-                        <category-column name="Diagnostic Cost" id="165">
+                        <category-column name="Diagnostic Cost" id="301">
                             <property name="aliasDataSet">Data Model/Diagnostics Fact Data Set</property>
                             <property name="resultSetColumnName">Diagnostic Cost</property>
                         </category-column>
-                        <category-column name="Contact Date" id="166">
+                        <category-column name="Contact Date" id="302">
                             <property name="aliasDataSet">Data Model/Diagnostics Fact Data Set</property>
                             <property name="resultSetColumnName">Contact Date</property>
                         </category-column>
-                        <category-column name="Gender" id="167">
+                        <category-column name="Gender" id="303">
                             <property name="aliasDataSet">Data Model/Diagnostics Fact Data Set</property>
                             <property name="resultSetColumnName">Gender</property>
                         </category-column>
-                        <category-column name="Occupation" id="168">
-                            <property name="aliasDataSet">Data Model/Diagnostics Fact Data Set</property>
-                            <property name="resultSetColumnName">Occupation</property>
-                        </category-column>
-                        <category-column name="Income" id="169">
+                        <category-column name="Income" id="304">
                             <property name="aliasDataSet">Data Model/Diagnostics Fact Data Set</property>
                             <property name="resultSetColumnName">Income</property>
                         </category-column>
-                        <category-column name="Age" id="170">
+                        <category-column name="Age" id="305">
                             <property name="aliasDataSet">Data Model/Diagnostics Fact Data Set</property>
                             <property name="resultSetColumnName">Age</property>
                         </category-column>
                     </property>
                 </category>
-                <category name="Age Band Data Set" id="171">
+                <category name="Age Band Data Set" id="306">
                     <property name="categoryColumns">
-                        <category-column name="Age1" id="172">
+                        <category-column name="Age1" id="307">
                             <property name="aliasDataSet">Data Model/Age Band Data Set</property>
                             <property name="resultSetColumnName">Age</property>
                         </category-column>
-                        <category-column name="Age Band" id="173">
+                        <category-column name="Age Band" id="308">
                             <property name="aliasDataSet">Data Model/Age Band Data Set</property>
                             <property name="resultSetColumnName">Age Numeric</property>
                         </category-column>
                     </property>
                 </category>
-                <category name="Contact Date Data Set" id="174">
+                <category name="Contact Date Data Set" id="309">
                     <property name="categoryColumns">
-                        <category-column name="Contact Date1" id="175">
+                        <category-column name="Contact Date1" id="310">
                             <property name="aliasDataSet">Data Model/Contact Date Data Set</property>
                             <property name="resultSetColumnName">Contact Date</property>
                         </category-column>
-                        <category-column name="Contact Date Month" id="176">
-                            <property name="aliasDataSet">Data Model/Contact Date Data Set</property>
-                            <property name="resultSetColumnName">Contact Date Month</property>
-                        </category-column>
-                        <category-column name="Contact Date Quarter" id="177">
+                        <category-column name="Contact Date Quarter" id="312">
                             <property name="aliasDataSet">Data Model/Contact Date Data Set</property>
                             <property name="resultSetColumnName">Contact Date Quarter</property>
                         </category-column>
-                        <category-column name="Contact Date Semester" id="178">
-                            <property name="aliasDataSet">Data Model/Contact Date Data Set</property>
-                            <property name="resultSetColumnName">Contact Date Semester</property>
-                        </category-column>
-                        <category-column name="Contact Date Week No" id="179">
-                            <property name="aliasDataSet">Data Model/Contact Date Data Set</property>
-                            <property name="resultSetColumnName">Contact Date Week No</property>
-                        </category-column>
-                        <category-column name="Contact Date Year" id="180">
+                        <category-column name="Contact Date Year" id="315">
                             <property name="aliasDataSet">Data Model/Contact Date Data Set</property>
                             <property name="resultSetColumnName">Contact Date Year</property>
                         </category-column>
-                        <category-column name="Contact Date WeekDay" id="181">
-                            <property name="aliasDataSet">Data Model/Contact Date Data Set</property>
-                            <property name="resultSetColumnName">Contact Date WeekDay</property>
-                        </category-column>
                     </property>
                 </category>
-                <category name="Diagnostic Data Set" id="182">
+                <category name="Diagnostic Data Set" id="317">
                     <property name="categoryColumns">
-                        <category-column name="Diagnostic CIE" id="183">
+                        <category-column name="Diagnostic CIE" id="318">
                             <property name="aliasDataSet">Data Model/Diagnostic Data Set</property>
                             <property name="resultSetColumnName">Diagnostic CIE</property>
                         </category-column>
-                        <category-column name="Diagnostic CIE Decode1" id="184">
+                        <category-column name="Diagnosis" id="319">
                             <property name="aliasDataSet">Data Model/Diagnostic Data Set</property>
                             <property name="resultSetColumnName">Diagnostic CIE Decode</property>
                         </category-column>
                     </property>
                 </category>
-                <category name="Gender Data Set" id="185">
+                <category name="Gender Data Set" id="320">
                     <property name="categoryColumns">
-                        <category-column name="Gender1" id="186">
+                        <category-column name="Gender1" id="321">
                             <property name="aliasDataSet">Data Model/Gender Data Set</property>
                             <property name="resultSetColumnName">Gender</property>
                         </category-column>
-                        <category-column name="Gender Decode" id="187">
+                        <category-column name="Gender Decode" id="322">
                             <property name="aliasDataSet">Data Model/Gender Data Set</property>
                             <property name="resultSetColumnName">Gender Decode</property>
                         </category-column>
                     </property>
                 </category>
-                <category name="Income Data Set" id="188">
+                <category name="Income Data Set" id="323">
                     <property name="categoryColumns">
-                        <category-column name="Income1" id="189">
+                        <category-column name="Income1" id="324">
                             <property name="aliasDataSet">Data Model/Income Data Set</property>
                             <property name="resultSetColumnName">Income</property>
                         </category-column>
-                        <category-column name="Income Band" id="190">
+                        <category-column name="Income Band" id="326">
                             <property name="aliasDataSet">Data Model/Income Data Set</property>
-                            <property name="resultSetColumnName">Income Numeric</property>
-                        </category-column>
-                    </property>
-                </category>
-                <category name="Occupation Data Set" id="191">
-                    <property name="categoryColumns">
-                        <category-column name="Occupation1" id="192">
-                            <property name="aliasDataSet">Data Model/Occupation Data Set</property>
-                            <property name="resultSetColumnName">Occupation</property>
-                        </category-column>
-                        <category-column name="Occupation Decode" id="193">
-                            <property name="aliasDataSet">Data Model/Occupation Data Set</property>
-                            <property name="resultSetColumnName">Occupation Decode</property>
+                            <property name="resultSetColumnName">Income Band</property>
                         </category-column>
                     </property>
                 </category>

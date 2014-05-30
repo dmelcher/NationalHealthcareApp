@@ -3,7 +3,7 @@
     <property name="createdBy">Eclipse BIRT Designer Version 4.2.3.v20131216-0430 Build &lt;4.2.3.v20131216-0430></property>
     <xml-property name="externalMetadata">
         <external-datamarts>
-            <datamart-node location="file:/C:/Users/ActuateUser/git/HealthcareDemo/Data%20Objects/MapDiagnositc.data">
+            <datamart-node location="file:/C:/Users/ActuateUser/git/National%20Healthcare/Data%20Objects/MapDiagnositc.data">
                 <reference-elements>Data Source;</reference-elements>
                 <datamart xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
                     <property name="createdBy">Eclipse BIRT Designer Version 4.2.3.v20131216-0430 Build &lt;4.2.3.v20131216-0430></property>
@@ -366,15 +366,23 @@
     </list-property>
     <parameters>
         <scalar-parameter name="pDiagnosis" id="376">
-            <property name="valueType">static</property>
+            <property name="valueType">dynamic</property>
+            <property name="isRequired">false</property>
+            <expression name="valueExpr" type="javascript">dataSetRow["diagnosis"]</expression>
+            <expression name="labelExpr" type="javascript">dataSetRow["diagnosis"]</expression>
+            <expression name="sortByColumn">dataSetRow["diagnosis"]</expression>
+            <property name="sortDirection">asc</property>
             <property name="dataType">string</property>
             <property name="distinct">true</property>
             <simple-property-list name="defaultValue">
                 <value type="constant">none</value>
             </simple-property-list>
             <list-property name="selectionList"/>
+            <property name="linkedDataModelName">Data Model</property>
             <property name="paramType">simple</property>
-            <property name="controlType">text-box</property>
+            <property name="controlType">list-box</property>
+            <property name="mustMatch">false</property>
+            <property name="fixedOrder">false</property>
             <structure name="format">
                 <property name="category">Unformatted</property>
             </structure>
@@ -663,31 +671,28 @@ handleMap: function(map)&#xD;
             <list-property name="filter">
                 <structure>
                     <property name="operator">eq</property>
-                    <expression name="expr" type="javascript">row["diagnosis"]</expression>
+                    <expression name="expr" type="javascript">data["diagnosis"]</expression>
                     <simple-property-list name="value1">
                         <value type="javascript">params["pDiagnosis"].value</value>
                     </simple-property-list>
                     <property name="updateAggregation">true</property>
                 </structure>
             </list-property>
-            <expression name="bookmark" type="javascript">"Illinois"</expression>
             <structure name="toc"/>
             <list-property name="boundDataColumns">
                 <structure>
-                    <property name="name">diagnosis</property>
-                    <text-property name="displayName">diagnosis</text-property>
-                    <expression name="expression" type="javascript">dataSetRow["diagnosis"]</expression>
+                    <property name="name">county</property>
+                    <expression name="expression" type="javascript">dataSetRow["county"]</expression>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
                     <property name="name">Pct</property>
-                    <text-property name="displayName">Pct</text-property>
                     <expression name="expression" type="javascript">dataSetRow["Pct"]</expression>
                     <property name="dataType">float</property>
                 </structure>
                 <structure>
-                    <property name="name">county</property>
-                    <expression name="expression" type="javascript">dataSetRow["county"]</expression>
+                    <property name="name">diagnosis</property>
+                    <expression name="expression" type="javascript">dataSetRow["diagnosis"]</expression>
                     <property name="dataType">string</property>
                 </structure>
             </list-property>

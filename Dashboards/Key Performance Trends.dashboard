@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.2.3.v20131216-0430 Build &lt;4.2.3.v20131216-0430></property>
+    <property name="layoutPreference">auto layout</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">ThemesReportItems3.rptlibrary</property>
+            <property name="namespace">ThemesReportItems3</property>
+        </structure>
+    </list-property>
+    <property name="dashboardView">
+        <dashboard id="2">
+            <property name="activeTab">180a3b33-87c3-4efd-af27-ac689d7b111c</property>
+            <property name="tabs">
+                <tab-element name="180a3b33-87c3-4efd-af27-ac689d7b111c" id="3">
+                    <property name="title">Key Performance Trends</property>
+                    <property name="backgroundColor">auto</property>
+                    <property name="freeFormGadgets">
+                        <gadget name="Gadget_51fcc7d4-b46c-40c8-b29d-8d0b7defaf1c" id="12">
+                            <property name="x">0px</property>
+                            <property name="y">0px</property>
+                            <property name="height">36px</property>
+                            <property name="width">1345px</property>
+                            <property name="title">Select Facility</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">4</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">36px</property>
+                            <property name="width">1345px</property>
+                            <property name="caption">
+                                <gadget-caption id="13">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Source Sans Pro"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <radio-data-selector id="14">
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/MetricsOverTime_dashboard.rptdesign</property>
+                                            <property name="targetBookmark">Location</property>
+                                            <property name="isNoValueSupported">false</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="operator">eq</property>
+                                    <property name="controlType">list-box</property>
+                                    <property name="dataType">string</property>
+                                    <simple-property-list name="selectedValues">
+                                        <value>All Hospitals</value>
+                                    </simple-property-list>
+                                    <property name="orientation">horizontal</property>
+                                    <property name="autoAdjust">false</property>
+                                    <property name="autoAdjustNumber">6</property>
+                                    <property name="listLimit">1000</property>
+                                </radio-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">f7d977a8-310c-4541-8aae-8cccb96c6fa8</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_912e6aed-a564-40ad-807f-1d84406cc68b</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_7bdd37d7-3616-4b3f-9779-82052cee6935</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_a82ea3ef-0c2e-4279-a516-92ad7e05b7e5</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_d7fdfd51-d78c-4f6b-bb1b-4f67b79a10c3</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_de000c8d-d481-481b-9002-9029bc8b32ef</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_912e6aed-a564-40ad-807f-1d84406cc68b" id="9">
+                            <property name="x">0px</property>
+                            <property name="y">108px</property>
+                            <property name="height">248px</property>
+                            <property name="width">1345px</property>
+                            <property name="title">Metrics Dashboard</property>
+                            <property name="externalGadgetURI">^/Report Designs/MetricsOverTime_dashboard.rptdesign</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">5</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">248px</property>
+                            <property name="width">1345px</property>
+                            <property name="caption">
+                                <gadget-caption id="10">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Source Sans Pro"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="11">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/MetricsOverTime_dashboard.rptdesign</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="paramSettings">
+                                        <param-setting>
+                                            <property name="paramName">Location</property>
+                                            <expression name="value">All Hospitals</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">All Hospitals</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">pTopLevelMeasure1</property>
+                                            <expression name="value">Financial</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Financial</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">pTopLevelMeasure2</property>
+                                            <expression name="value">Patient Satisfaction</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Patient Satisfaction</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">pTopLevelMeasure3</property>
+                                            <expression name="value">Core Measures</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Core Measures</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">pTopLevelMeasure4</property>
+                                            <expression name="value">Safety</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Safety</expression>
+                                        </param-setting>
+                                    </property>
+                                </data-view>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_51fcc7d4-b46c-40c8-b29d-8d0b7defaf1c</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="f7d977a8-310c-4541-8aae-8cccb96c6fa8" id="6">
+                            <property name="x">10px</property>
+                            <property name="y">744px</property>
+                            <property name="height">150px</property>
+                            <property name="width">667px</property>
+                            <property name="zIndex">4</property>
+                            <property name="isVisible">false</property>
+                            <property name="height">150px</property>
+                            <property name="width">667px</property>
+                            <property name="caption">
+                                <gadget-caption id="8">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"tahoma", "arial", "verdana", sans-serif</property>
+                                    <property name="fontSize">8pt</property>
+                                    <property name="fontWeight">bold</property>
+                                    <property name="color">#000000</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <current-selections id="7"/>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">Gadget_51fcc7d4-b46c-40c8-b29d-8d0b7defaf1c</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_f0a3948f-c2be-4707-82d8-ee7b50de22af</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_9bf8cb04-95ea-4e4a-a7f8-da72019ad987</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_05ee3cf7-2e6e-4653-995e-8310d2fe00de</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_fa114cde-87bb-4830-9aa2-80e40f73db4a</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_70c4d7d0-a92a-419c-815c-07546aa0c407</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_c5b1893d-e438-4a6c-8df9-9e9d96f08127</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_4f675eb6-5857-4d09-a648-ede4dab2838f</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_c1468939-3e87-4ce1-8dd4-fce7610072eb</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_7bdd37d7-3616-4b3f-9779-82052cee6935" id="15">
+                            <property name="x">18px</property>
+                            <property name="y">486px</property>
+                            <property name="height">250px</property>
+                            <property name="width">312px</property>
+                            <property name="title">Finance</property>
+                            <property name="externalGadgetURI">^/Report Designs/MetricsOverTime_Finance.rptdesign</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">6</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">250px</property>
+                            <property name="width">312px</property>
+                            <property name="caption">
+                                <gadget-caption id="16">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Source Sans Pro"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="17">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/MetricsOverTime_Finance.rptdesign</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="paramSettings">
+                                        <param-setting>
+                                            <property name="paramName">Location</property>
+                                            <expression name="value">All Hospitals</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">All Hospitals</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">TLM_Finance</property>
+                                            <expression name="value">Financial</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Financial</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">SM_Finance</property>
+                                            <expression name="value">Admin Costs</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Admin Costs</expression>
+                                        </param-setting>
+                                    </property>
+                                </data-view>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_51fcc7d4-b46c-40c8-b29d-8d0b7defaf1c</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">TLM_Finance</property>
+                                            <property name="gadget">Gadget_f0a3948f-c2be-4707-82d8-ee7b50de22af</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">SM_Finance</property>
+                                            <property name="gadget">Gadget_9bf8cb04-95ea-4e4a-a7f8-da72019ad987</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_f0a3948f-c2be-4707-82d8-ee7b50de22af" id="18">
+                            <property name="x">126px</property>
+                            <property name="y">558px</property>
+                            <property name="height">78px</property>
+                            <property name="width">61px</property>
+                            <property name="title">TLM_Finance</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">true</property>
+                            <property name="zIndex">0</property>
+                            <property name="height">78px</property>
+                            <property name="width">61px</property>
+                            <property name="caption">
+                                <gadget-caption id="19">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <list-data-selector id="20">
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/MetricsOverTime_Finance.rptdesign</property>
+                                            <property name="targetBookmark">NewCascadingParameterGroup/TLM_Finance</property>
+                                            <property name="isNoValueSupported">false</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="controlType">list-box</property>
+                                    <property name="dataType">string</property>
+                                    <simple-property-list name="selectedValues">
+                                        <value>Financial</value>
+                                    </simple-property-list>
+                                    <property name="allowMultiValue">false</property>
+                                    <property name="enableSearch">false</property>
+                                    <property name="listLimit">1000</property>
+                                </list-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">f7d977a8-310c-4541-8aae-8cccb96c6fa8</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">TLM_Finance</property>
+                                            <property name="gadget">Gadget_7bdd37d7-3616-4b3f-9779-82052cee6935</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_9bf8cb04-95ea-4e4a-a7f8-da72019ad987</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_9bf8cb04-95ea-4e4a-a7f8-da72019ad987" id="21">
+                            <property name="x">18px</property>
+                            <property name="y">378px</property>
+                            <property name="height">54px</property>
+                            <property name="width">312px</property>
+                            <property name="title">Select Submeasure</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">7</property>
+                            <property name="showScrollBar">true</property>
+                            <property name="height">54px</property>
+                            <property name="width">312px</property>
+                            <property name="caption">
+                                <gadget-caption id="22">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Verdana"</property>
+                                    <property name="fontSize">10pt</property>
+                                    <property name="fontWeight">bold</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#666666</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <radio-data-selector id="24">
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/MetricsOverTime_Finance.rptdesign</property>
+                                            <property name="targetBookmark">NewCascadingParameterGroup/SM_Finance</property>
+                                            <property name="isNoValueSupported">false</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="operator">eq</property>
+                                    <property name="controlType">list-box</property>
+                                    <property name="dataType">string</property>
+                                    <simple-property-list name="selectedValues">
+                                        <value>Admin Costs</value>
+                                    </simple-property-list>
+                                    <property name="orientation">horizontal</property>
+                                    <property name="autoAdjust">false</property>
+                                    <property name="autoAdjustNumber">2</property>
+                                    <property name="listLimit">1000</property>
+                                </radio-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">f7d977a8-310c-4541-8aae-8cccb96c6fa8</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">SM_Finance</property>
+                                            <property name="gadget">Gadget_7bdd37d7-3616-4b3f-9779-82052cee6935</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">Gadget_f0a3948f-c2be-4707-82d8-ee7b50de22af</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_a82ea3ef-0c2e-4279-a516-92ad7e05b7e5" id="25">
+                            <property name="x">342px</property>
+                            <property name="y">486px</property>
+                            <property name="height">250px</property>
+                            <property name="width">312px</property>
+                            <property name="title">Patient Satisfaction</property>
+                            <property name="externalGadgetURI">^/Report Designs/MetricsOverTime_PatientSatisfaction.rptdesign</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">8</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">250px</property>
+                            <property name="width">312px</property>
+                            <property name="caption">
+                                <gadget-caption id="26">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Source Sans Pro"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="27">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/MetricsOverTime_PatientSatisfaction.rptdesign</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="paramSettings">
+                                        <param-setting>
+                                            <property name="paramName">Location</property>
+                                            <expression name="value">All Hospitals</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">All Hospitals</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">TLM_PS</property>
+                                            <expression name="value">Patient Satisfaction</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Patient Satisfaction</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">SM_PS</property>
+                                            <expression name="value">Admission</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Admission</expression>
+                                        </param-setting>
+                                    </property>
+                                </data-view>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_51fcc7d4-b46c-40c8-b29d-8d0b7defaf1c</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">TLM_PS</property>
+                                            <property name="gadget">Gadget_05ee3cf7-2e6e-4653-995e-8310d2fe00de</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">SM_PS</property>
+                                            <property name="gadget">Gadget_fa114cde-87bb-4830-9aa2-80e40f73db4a</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_05ee3cf7-2e6e-4653-995e-8310d2fe00de" id="28">
+                            <property name="x">486px</property>
+                            <property name="y">522px</property>
+                            <property name="height">100px</property>
+                            <property name="width">96px</property>
+                            <property name="title">TLM_PS</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">true</property>
+                            <property name="zIndex">3</property>
+                            <property name="height">100px</property>
+                            <property name="width">96px</property>
+                            <property name="caption">
+                                <gadget-caption id="29">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <list-data-selector id="30">
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/MetricsOverTime_PatientSatisfaction.rptdesign</property>
+                                            <property name="targetBookmark">NewCascadingParameterGroup/TLM_PS</property>
+                                            <property name="isNoValueSupported">false</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="controlType">list-box</property>
+                                    <property name="dataType">string</property>
+                                    <simple-property-list name="selectedValues">
+                                        <value>Patient Satisfaction</value>
+                                    </simple-property-list>
+                                    <property name="allowMultiValue">false</property>
+                                    <property name="enableSearch">false</property>
+                                    <property name="listLimit">1000</property>
+                                </list-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">f7d977a8-310c-4541-8aae-8cccb96c6fa8</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">TLM_PS</property>
+                                            <property name="gadget">Gadget_a82ea3ef-0c2e-4279-a516-92ad7e05b7e5</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_fa114cde-87bb-4830-9aa2-80e40f73db4a</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_fa114cde-87bb-4830-9aa2-80e40f73db4a" id="31">
+                            <property name="x">360px</property>
+                            <property name="y">378px</property>
+                            <property name="height">53px</property>
+                            <property name="width">312px</property>
+                            <property name="title">Select Submeasure</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">9</property>
+                            <property name="showScrollBar">true</property>
+                            <property name="height">53px</property>
+                            <property name="width">312px</property>
+                            <property name="caption">
+                                <gadget-caption id="32">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Verdana"</property>
+                                    <property name="fontSize">10pt</property>
+                                    <property name="fontWeight">bold</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#666666</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <radio-data-selector id="34">
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/MetricsOverTime_PatientSatisfaction.rptdesign</property>
+                                            <property name="targetBookmark">NewCascadingParameterGroup/SM_PS</property>
+                                            <property name="isNoValueSupported">false</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="operator">eq</property>
+                                    <property name="controlType">list-box</property>
+                                    <property name="dataType">string</property>
+                                    <simple-property-list name="selectedValues">
+                                        <value>Admission</value>
+                                    </simple-property-list>
+                                    <property name="orientation">horizontal</property>
+                                    <property name="autoAdjust">false</property>
+                                    <property name="autoAdjustNumber">2</property>
+                                    <property name="listLimit">1000</property>
+                                </radio-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">f7d977a8-310c-4541-8aae-8cccb96c6fa8</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">SM_PS</property>
+                                            <property name="gadget">Gadget_a82ea3ef-0c2e-4279-a516-92ad7e05b7e5</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">Gadget_05ee3cf7-2e6e-4653-995e-8310d2fe00de</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_d7fdfd51-d78c-4f6b-bb1b-4f67b79a10c3" id="35">
+                            <property name="x">684px</property>
+                            <property name="y">486px</property>
+                            <property name="height">250px</property>
+                            <property name="width">312px</property>
+                            <property name="title">CoreMeasures</property>
+                            <property name="externalGadgetURI">^/Report Designs/MetricsOverTime_CoreMeasures.rptdesign</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">10</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">250px</property>
+                            <property name="width">312px</property>
+                            <property name="caption">
+                                <gadget-caption id="36">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Source Sans Pro"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="37">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/MetricsOverTime_CoreMeasures.rptdesign</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="paramSettings">
+                                        <param-setting>
+                                            <property name="paramName">Location</property>
+                                            <expression name="value">All Hospitals</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">All Hospitals</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">TLM_Core</property>
+                                            <expression name="value">Core Measures</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Core Measures</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">SM_Core</property>
+                                            <expression name="value">Heart Attack Care</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Heart Attack Care</expression>
+                                        </param-setting>
+                                    </property>
+                                </data-view>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_51fcc7d4-b46c-40c8-b29d-8d0b7defaf1c</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">TLM_Core</property>
+                                            <property name="gadget">Gadget_70c4d7d0-a92a-419c-815c-07546aa0c407</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">SM_Core</property>
+                                            <property name="gadget">Gadget_c5b1893d-e438-4a6c-8df9-9e9d96f08127</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_70c4d7d0-a92a-419c-815c-07546aa0c407" id="38">
+                            <property name="x">828px</property>
+                            <property name="y">576px</property>
+                            <property name="height">45px</property>
+                            <property name="width">71px</property>
+                            <property name="title">TLM_Core</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">true</property>
+                            <property name="zIndex">2</property>
+                            <property name="height">45px</property>
+                            <property name="width">71px</property>
+                            <property name="caption">
+                                <gadget-caption id="39">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <list-data-selector id="40">
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/MetricsOverTime_CoreMeasures.rptdesign</property>
+                                            <property name="targetBookmark">NewCascadingParameterGroup/TLM_Core</property>
+                                            <property name="isNoValueSupported">false</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="controlType">list-box</property>
+                                    <property name="dataType">string</property>
+                                    <simple-property-list name="selectedValues">
+                                        <value>Core Measures</value>
+                                    </simple-property-list>
+                                    <property name="allowMultiValue">false</property>
+                                    <property name="enableSearch">false</property>
+                                    <property name="listLimit">1000</property>
+                                </list-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">f7d977a8-310c-4541-8aae-8cccb96c6fa8</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">TLM_Core</property>
+                                            <property name="gadget">Gadget_d7fdfd51-d78c-4f6b-bb1b-4f67b79a10c3</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_c5b1893d-e438-4a6c-8df9-9e9d96f08127</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_c5b1893d-e438-4a6c-8df9-9e9d96f08127" id="41">
+                            <property name="x">684px</property>
+                            <property name="y">378px</property>
+                            <property name="height">68px</property>
+                            <property name="width">312px</property>
+                            <property name="title">Select Submeasure</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">11</property>
+                            <property name="showScrollBar">true</property>
+                            <property name="height">68px</property>
+                            <property name="width">312px</property>
+                            <property name="caption">
+                                <gadget-caption id="42">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Verdana"</property>
+                                    <property name="fontSize">10pt</property>
+                                    <property name="fontWeight">bold</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#666666</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <radio-data-selector id="44">
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/MetricsOverTime_CoreMeasures.rptdesign</property>
+                                            <property name="targetBookmark">NewCascadingParameterGroup/SM_Core</property>
+                                            <property name="isNoValueSupported">false</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="operator">eq</property>
+                                    <property name="controlType">list-box</property>
+                                    <property name="dataType">string</property>
+                                    <simple-property-list name="selectedValues">
+                                        <value>Heart Attack Care</value>
+                                    </simple-property-list>
+                                    <property name="orientation">horizontal</property>
+                                    <property name="autoAdjust">false</property>
+                                    <property name="autoAdjustNumber">2</property>
+                                    <property name="listLimit">1000</property>
+                                </radio-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">f7d977a8-310c-4541-8aae-8cccb96c6fa8</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">SM_Core</property>
+                                            <property name="gadget">Gadget_d7fdfd51-d78c-4f6b-bb1b-4f67b79a10c3</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">Gadget_70c4d7d0-a92a-419c-815c-07546aa0c407</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_de000c8d-d481-481b-9002-9029bc8b32ef" id="45">
+                            <property name="x">1008px</property>
+                            <property name="y">486px</property>
+                            <property name="height">250px</property>
+                            <property name="width">312px</property>
+                            <property name="title">Safety</property>
+                            <property name="externalGadgetURI">^/Report Designs/MetricsOverTime_Safety.rptdesign</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">12</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="height">250px</property>
+                            <property name="width">312px</property>
+                            <property name="caption">
+                                <gadget-caption id="46">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Source Sans Pro"</property>
+                                    <property name="fontSize">18pt</property>
+                                    <property name="fontWeight">normal</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#353535</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <data-view id="47">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/MetricsOverTime_Safety.rptdesign</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="paramSettings">
+                                        <param-setting>
+                                            <property name="paramName">Location</property>
+                                            <expression name="value">All Hospitals</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">All Hospitals</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">TLM_Safety</property>
+                                            <expression name="value">Safety</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Safety</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">SM_Safety</property>
+                                            <expression name="value">MRI Burn Log</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">MRI Burn Log</expression>
+                                        </param-setting>
+                                    </property>
+                                </data-view>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_51fcc7d4-b46c-40c8-b29d-8d0b7defaf1c</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">TLM_Safety</property>
+                                            <property name="gadget">Gadget_4f675eb6-5857-4d09-a648-ede4dab2838f</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">SM_Safety</property>
+                                            <property name="gadget">Gadget_c1468939-3e87-4ce1-8dd4-fce7610072eb</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_4f675eb6-5857-4d09-a648-ede4dab2838f" id="48">
+                            <property name="x">1170px</property>
+                            <property name="y">522px</property>
+                            <property name="height">27px</property>
+                            <property name="width">69px</property>
+                            <property name="title">TLM_Safety</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">true</property>
+                            <property name="zIndex">1</property>
+                            <property name="height">27px</property>
+                            <property name="width">69px</property>
+                            <property name="caption">
+                                <gadget-caption id="49">
+                                    <property name="showCaption">false</property>
+                                    <property name="horizontalAlignment">left</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <list-data-selector id="50">
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/MetricsOverTime_Safety.rptdesign</property>
+                                            <property name="targetBookmark">NewCascadingParameterGroup/TLM_Safety</property>
+                                            <property name="isNoValueSupported">false</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="controlType">list-box</property>
+                                    <property name="dataType">string</property>
+                                    <simple-property-list name="selectedValues">
+                                        <value>Safety</value>
+                                    </simple-property-list>
+                                    <property name="allowMultiValue">false</property>
+                                    <property name="enableSearch">false</property>
+                                    <property name="listLimit">1000</property>
+                                </list-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">f7d977a8-310c-4541-8aae-8cccb96c6fa8</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">TLM_Safety</property>
+                                            <property name="gadget">Gadget_de000c8d-d481-481b-9002-9029bc8b32ef</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_c1468939-3e87-4ce1-8dd4-fce7610072eb</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_c1468939-3e87-4ce1-8dd4-fce7610072eb" id="51">
+                            <property name="x">1026px</property>
+                            <property name="y">378px</property>
+                            <property name="height">97px</property>
+                            <property name="width">312px</property>
+                            <property name="title">Select Submeasure</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">13</property>
+                            <property name="showScrollBar">true</property>
+                            <property name="height">97px</property>
+                            <property name="width">312px</property>
+                            <property name="caption">
+                                <gadget-caption id="52">
+                                    <property name="showCaption">true</property>
+                                    <property name="horizontalAlignment">left</property>
+                                    <property name="fontFamily">"Verdana"</property>
+                                    <property name="fontSize">10pt</property>
+                                    <property name="fontWeight">bold</property>
+                                    <property name="fontStyle">normal</property>
+                                    <property name="color">#666666</property>
+                                    <property name="textUnderline">none</property>
+                                </gadget-caption>
+                            </property>
+                            <property name="content">
+                                <radio-data-selector id="54">
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">^/Report Designs/MetricsOverTime_Safety.rptdesign</property>
+                                            <property name="targetBookmark">NewCascadingParameterGroup/SM_Safety</property>
+                                            <property name="isNoValueSupported">false</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="operator">eq</property>
+                                    <property name="controlType">list-box</property>
+                                    <property name="dataType">string</property>
+                                    <simple-property-list name="selectedValues">
+                                        <value>MRI Burn Log</value>
+                                    </simple-property-list>
+                                    <property name="orientation">horizontal</property>
+                                    <property name="autoAdjust">true</property>
+                                    <property name="autoAdjustNumber">3</property>
+                                    <property name="listLimit">1000</property>
+                                </radio-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">f7d977a8-310c-4541-8aae-8cccb96c6fa8</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">SM_Safety</property>
+                                            <property name="gadget">Gadget_de000c8d-d481-481b-9002-9029bc8b32ef</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">Gadget_4f675eb6-5857-4d09-a648-ede4dab2838f</property>
+                                            <property name="dirty">false</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+            </property>
+        </dashboard>
+    </property>
+</report>

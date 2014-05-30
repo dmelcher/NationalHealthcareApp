@@ -6,14 +6,16 @@
             <text-property name="displayName">Modern</text-property>
             <styles>
                 <style name="crosstab" id="11">
-                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontFamily">"Verdana"</property>
                     <property name="fontSize">10pt</property>
                     <property name="color">#353535</property>
                 </style>
                 <style name="crosstab-header" id="12">
                     <property name="backgroundColor">#DDDDDD</property>
+                    <property name="fontFamily">"Verdana"</property>
                     <property name="fontSize">10pt</property>
                     <property name="fontWeight">bold</property>
+                    <property name="color">#000000</property>
                     <property name="borderBottomColor">#BBBBBB</property>
                     <property name="borderBottomStyle">solid</property>
                     <property name="borderBottomWidth">1px</property>
@@ -29,6 +31,7 @@
                 </style>
                 <style name="crosstab-detail" id="901">
                     <property name="backgroundColor">#FFFFFF</property>
+                    <property name="fontFamily">"Verdana"</property>
                     <property name="borderBottomColor">#BBBBBB</property>
                     <property name="borderBottomStyle">solid</property>
                     <property name="borderBottomWidth">1px</property>
@@ -45,25 +48,30 @@
                 </style>
                 <style name="crosstab-row-header" id="902">
                     <property name="backgroundColor">#DDDDDD</property>
+                    <property name="fontFamily">"Verdana"</property>
                     <property name="textAlign">left</property>
                 </style>
                 <style name="crosstab-column-sub-total" id="903">
                     <property name="backgroundColor">#F1F1F1</property>
+                    <property name="fontFamily">"Verdana"</property>
                     <property name="fontWeight">bold</property>
                     <property name="fontStyle">italic</property>
                 </style>
                 <style name="crosstab-row-sub-total" id="923">
                     <property name="backgroundColor">#F1F1F1</property>
+                    <property name="fontFamily">"Verdana"</property>
                     <property name="fontWeight">bold</property>
                     <property name="fontStyle">italic</property>
                 </style>
                 <style name="crosstab-column-grand-total" id="924">
                     <property name="backgroundColor">#F1F1F1</property>
+                    <property name="fontFamily">"Verdana"</property>
                     <property name="fontWeight">bold</property>
                     <property name="fontStyle">italic</property>
                 </style>
                 <style name="crosstab-row-grand-total" id="925">
                     <property name="backgroundColor">#F1F1F1</property>
+                    <property name="fontFamily">"Verdana"</property>
                     <property name="fontWeight">bold</property>
                     <property name="fontStyle">italic</property>
                 </style>
@@ -73,7 +81,7 @@
             <text-property name="displayName">Clean Blue</text-property>
             <styles>
                 <style name="crosstab" id="601">
-                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontFamily">"Verdana"</property>
                     <property name="fontSize">10pt</property>
                     <property name="color">#353535</property>
                 </style>
@@ -142,7 +150,7 @@
             <text-property name="displayName">Warm Red</text-property>
             <styles>
                 <style name="crosstab" id="611">
-                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontFamily">"Verdana"</property>
                     <property name="fontSize">10pt</property>
                     <property name="color">#353535</property>
                 </style>
@@ -212,7 +220,7 @@
             <text-property name="displayName">Grayscale</text-property>
             <styles>
                 <style name="crosstab" id="905">
-                    <property name="fontFamily">"Tahoma"</property>
+                    <property name="fontFamily">"Verdana"</property>
                     <property name="fontSize">10pt</property>
                     <property name="color">#353535</property>
                 </style>
@@ -288,7 +296,7 @@
     </outline>
     <label>
      <caption>
-      <font name="Tahoma" size="14.0" bold="false"/>
+      <font name="Verdana" size="14.0" bold="false"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -317,7 +325,7 @@
      </outline>
     </clientArea>
     <text>
-     <font name="Tahoma" size="10.0"/>
+     <font name="Verdana" size="10.0"/>
      <color _body=",255,85,85,85"/>
     </text>
     <separator>
@@ -325,7 +333,7 @@
     </separator>
     <title>
      <caption>
-      <font name="Tahoma" size="10.0"/>
+      <font name="Verdana" size="10.0"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -354,7 +362,7 @@
   <axes>
    <title>
     <caption>
-     <font name="Tahoma"/>
+     <font name="Verdana"/>
      <color _body=",255,85,85,85"/>
     </caption>
     <background _nil="1"/>
@@ -365,7 +373,7 @@
    <associatedAxes primaryAxis="true">
     <title>
      <caption>
-      <font name="Tahoma"/>
+      <font name="Verdana"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -390,7 +398,7 @@
      <series _type="BarSeries" seriesIdentifier="" riser="0">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -408,7 +416,7 @@
      <series _type="LineSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -431,7 +439,7 @@
      <series _type="AreaSeries" seriesIdentifier="" stacked="false" curve="false">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -453,7 +461,7 @@
      <series _type="PieSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma" size="10.0"/>
+        <font name="Verdana" size="10.0"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -507,7 +515,7 @@
        </minorGrid>
        <label>
         <caption>
-         <font name="Tahoma"/>
+         <font name="Verdana"/>
          <color _body=",255,85,85,85"/>
         </caption>
         <background _nil="1"/>
@@ -525,7 +533,7 @@
      <series _type="ScatterSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -547,7 +555,7 @@
      <series _type="StockSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -563,7 +571,7 @@
      <series _type="BubbleSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -588,7 +596,7 @@
      <series _type="DifferenceSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -615,7 +623,7 @@
      <series _type="GanttSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -635,7 +643,7 @@
       </outline>
       <decorationLabel>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -647,7 +655,7 @@
      <series _type="RadarSeries" seriesIdentifier="" paletteLineColor="true">
       <label>
        <caption>
-        <font name="Tahoma">
+        <font name="Verdana">
          <alignment/>
         </font>
         <color _body=",255,85,85,85"/>
@@ -667,7 +675,7 @@
       </webLineAttributes>
       <webLabel>
        <caption>
-        <font name="Tahoma" size="10.0">
+        <font name="Verdana" size="10.0">
          <alignment/>
         </font>
         <color _body=",255,85,85,85"/>
@@ -677,7 +685,7 @@
       </webLabel>
       <catLabel>
        <caption>
-        <font name="Tahoma">
+        <font name="Verdana">
          <alignment/>
         </font>
         <color _body=",255,85,85,85"/>
@@ -692,7 +700,7 @@
     </lineAttributes>
     <label>
      <caption>
-      <font name="Tahoma" size="10.0"/>
+      <font name="Verdana" size="10.0"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -723,7 +731,7 @@
    <ancillaryAxes>
     <title>
      <caption>
-      <font name="Tahoma"/>
+      <font name="Verdana"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -751,7 +759,7 @@
     </lineAttributes>
     <label>
      <caption>
-      <font name="Tahoma" size="10.0"/>
+      <font name="Verdana" size="10.0"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -812,7 +820,7 @@
    </lineAttributes>
    <label>
     <caption>
-     <font name="Tahoma" size="10.0"/>
+     <font name="Verdana" size="10.0"/>
      <color _body=",255,85,85,85"/>
     </caption>
     <background _nil="1"/>
@@ -856,7 +864,7 @@
     </outline>
     <label>
      <caption>
-      <font name="Tahoma" size="14.0" bold="false"/>
+      <font name="Verdana" size="14.0" bold="false"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -885,7 +893,7 @@
      </outline>
     </clientArea>
     <text>
-     <font name="Tahoma" size="10.0"/>
+     <font name="Verdana" size="10.0"/>
      <color _body=",255,85,85,85"/>
     </text>
     <separator>
@@ -893,7 +901,7 @@
     </separator>
     <title>
      <caption>
-      <font name="Tahoma" size="10.0"/>
+      <font name="Verdana" size="10.0"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -922,7 +930,7 @@
   <axes>
    <title>
     <caption>
-     <font name="Tahoma"/>
+     <font name="Verdana"/>
      <color _body=",255,85,85,85"/>
     </caption>
     <background _nil="1"/>
@@ -933,7 +941,7 @@
    <associatedAxes primaryAxis="true">
     <title>
      <caption>
-      <font name="Tahoma"/>
+      <font name="Verdana"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -958,7 +966,7 @@
      <series _type="BarSeries" seriesIdentifier="" riser="0">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -976,7 +984,7 @@
      <series _type="LineSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -999,7 +1007,7 @@
      <series _type="AreaSeries" seriesIdentifier="" stacked="false" curve="false">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1021,7 +1029,7 @@
      <series _type="PieSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma" size="10.0"/>
+        <font name="Verdana" size="10.0"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1075,7 +1083,7 @@
        </minorGrid>
        <label>
         <caption>
-         <font name="Tahoma" size="10.0"/>
+         <font name="Verdana" size="10.0"/>
          <color _body=",255,85,85,85"/>
         </caption>
         <background _nil="1"/>
@@ -1093,7 +1101,7 @@
      <series _type="ScatterSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1115,7 +1123,7 @@
      <series _type="StockSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1134,7 +1142,7 @@
      <series _type="BubbleSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1160,7 +1168,7 @@
      <series _type="DifferenceSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1187,7 +1195,7 @@
      <series _type="GanttSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1207,7 +1215,7 @@
       </outline>
       <decorationLabel>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1219,7 +1227,7 @@
      <series _type="RadarSeries" seriesIdentifier="" paletteLineColor="true" showWebLabels="false" fillPolys="false">
       <label>
        <caption>
-        <font name="Tahoma" size="10.0">
+        <font name="Verdana" size="10.0">
          <alignment/>
         </font>
         <color _body=",255,85,85,85"/>
@@ -1243,7 +1251,7 @@
       </webLineAttributes>
       <webLabel>
        <caption>
-        <font name="Tahoma" size="10.0">
+        <font name="Verdana" size="10.0">
          <alignment/>
         </font>
         <color _body=",255,85,85,85"/>
@@ -1253,7 +1261,7 @@
       </webLabel>
       <catLabel>
        <caption>
-        <font name="Tahoma" size="10.0">
+        <font name="Verdana" size="10.0">
          <alignment/>
         </font>
         <color _body=",255,85,85,85"/>
@@ -1268,7 +1276,7 @@
     </lineAttributes>
     <label>
      <caption>
-      <font name="Tahoma" size="10.0"/>
+      <font name="Verdana" size="10.0"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -1299,7 +1307,7 @@
    <ancillaryAxes>
     <title>
      <caption>
-      <font name="Tahoma"/>
+      <font name="Verdana"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -1327,7 +1335,7 @@
     </lineAttributes>
     <label>
      <caption>
-      <font name="Tahoma" size="10.0"/>
+      <font name="Verdana" size="10.0"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -1388,7 +1396,7 @@
    </lineAttributes>
    <label>
     <caption>
-     <font name="Tahoma" size="10.0"/>
+     <font name="Verdana" size="10.0"/>
      <color _body=",255,85,85,85"/>
     </caption>
     <background _nil="1"/>
@@ -1432,7 +1440,7 @@
     </outline>
     <label>
      <caption>
-      <font name="Tahoma" size="10.0" bold="false"/>
+      <font name="Verdana" size="10.0" bold="false"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -1461,7 +1469,7 @@
      </outline>
     </clientArea>
     <text>
-     <font name="Tahoma" size="10.0" bold="false"/>
+     <font name="Verdana" size="10.0" bold="false"/>
      <color _body=",255,145,145,145"/>
     </text>
     <separator>
@@ -1469,7 +1477,7 @@
     </separator>
     <title>
      <caption>
-      <font name="Tahoma" size="10.0"/>
+      <font name="Verdana" size="10.0"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -1498,7 +1506,7 @@
   <axes>
    <title>
     <caption>
-     <font name="Tahoma"/>
+     <font name="Verdana"/>
      <color _body=",255,85,85,85"/>
     </caption>
     <background _nil="1"/>
@@ -1509,7 +1517,7 @@
    <associatedAxes primaryAxis="true">
     <title>
      <caption>
-      <font name="Tahoma"/>
+      <font name="Verdana"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -1534,7 +1542,7 @@
      <series _type="BarSeries" seriesIdentifier="" riser="0">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1552,7 +1560,7 @@
      <series _type="LineSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1575,7 +1583,7 @@
      <series _type="AreaSeries" seriesIdentifier="" stacked="false" curve="false">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1597,7 +1605,7 @@
      <series _type="PieSeries" seriesIdentifier="" leaderLineLength="1.0">
       <label>
        <caption>
-        <font name="Tahoma" size="10.0"/>
+        <font name="Verdana" size="10.0"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1651,7 +1659,7 @@
        </minorGrid>
        <label>
         <caption>
-         <font name="Tahoma" size="10.0"/>
+         <font name="Verdana" size="10.0"/>
          <color _body=",255,85,85,85"/>
         </caption>
         <background _nil="1"/>
@@ -1669,7 +1677,7 @@
      <series _type="ScatterSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1691,7 +1699,7 @@
      <series _type="StockSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1710,7 +1718,7 @@
      <series _type="BubbleSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1735,7 +1743,7 @@
      <series _type="DifferenceSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1762,7 +1770,7 @@
      <series _type="GanttSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1782,7 +1790,7 @@
       </outline>
       <decorationLabel>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -1794,7 +1802,7 @@
      <series _type="RadarSeries" seriesIdentifier="" paletteLineColor="true" showWebLabels="false" fillPolys="false" connectEndpoints="true">
       <label>
        <caption>
-        <font name="Tahoma" size="10.0">
+        <font name="Verdana" size="10.0">
          <alignment/>
         </font>
         <color _body=",255,85,85,85"/>
@@ -1816,7 +1824,7 @@
       </webLineAttributes>
       <webLabel>
        <caption>
-        <font name="Tahoma" size="10.0">
+        <font name="Verdana" size="10.0">
          <alignment/>
         </font>
         <color _body=",255,85,85,85"/>
@@ -1826,7 +1834,7 @@
       </webLabel>
       <catLabel>
        <caption>
-        <font name="Tahoma" size="10.0">
+        <font name="Verdana" size="10.0">
          <alignment/>
         </font>
         <color _body=",255,85,85,85"/>
@@ -1841,7 +1849,7 @@
     </lineAttributes>
     <label>
      <caption>
-      <font name="Tahoma" size="10.0" bold="false"/>
+      <font name="Verdana" size="10.0" bold="false"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -1872,7 +1880,7 @@
    <ancillaryAxes>
     <title>
      <caption>
-      <font name="Tahoma"/>
+      <font name="Verdana"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -1900,7 +1908,7 @@
     </lineAttributes>
     <label>
      <caption>
-      <font name="Tahoma" size="10.0"/>
+      <font name="Verdana" size="10.0"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -1961,7 +1969,7 @@
    </lineAttributes>
    <label>
     <caption>
-     <font name="Tahoma" size="10.0" bold="false"/>
+     <font name="Verdana" size="10.0" bold="false"/>
      <color _body=",255,85,85,85"/>
     </caption>
     <background _nil="1"/>
@@ -2034,7 +2042,7 @@
      </outline>
     </clientArea>
     <text>
-     <font name="Tahoma" size="10.0"/>
+     <font name="Verdana" size="10.0"/>
      <color _body=",255,85,85,85"/>
     </text>
     <separator>
@@ -2042,7 +2050,7 @@
     </separator>
     <title>
      <caption>
-      <font name="Tahoma" size="10.0"/>
+      <font name="Verdana" size="10.0"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -2335,7 +2343,7 @@
      <series _type="GanttSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma" size="10.0"/>
+        <font name="Verdana" size="10.0"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -2355,7 +2363,7 @@
       </outline>
       <decorationLabel>
        <caption>
-        <font name="Tahoma" size="10.0"/>
+        <font name="Verdana" size="10.0"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -2576,7 +2584,7 @@
     </outline>
     <label>
      <caption>
-      <font name="Tahoma" size="14.0" bold="false"/>
+      <font name="Verdana" size="14.0" bold="false"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -2605,7 +2613,7 @@
      </outline>
     </clientArea>
     <text>
-     <font name="Tahoma" size="10.0"/>
+     <font name="Verdana" size="10.0"/>
      <color _body=",255,85,85,85"/>
     </text>
     <separator>
@@ -2613,7 +2621,7 @@
     </separator>
     <title>
      <caption>
-      <font name="Tahoma" size="10.0"/>
+      <font name="Verdana" size="10.0"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -2642,7 +2650,7 @@
   <axes>
    <title>
     <caption>
-     <font name="Tahoma"/>
+     <font name="Verdana"/>
      <color _body=",255,85,85,85"/>
     </caption>
     <background _nil="1"/>
@@ -2653,7 +2661,7 @@
    <associatedAxes primaryAxis="true">
     <title>
      <caption>
-      <font name="Tahoma"/>
+      <font name="Verdana"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -2678,7 +2686,7 @@
      <series _type="BarSeries" seriesIdentifier="" riser="0">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -2696,7 +2704,7 @@
      <series _type="LineSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -2719,7 +2727,7 @@
      <series _type="AreaSeries" seriesIdentifier="" stacked="false" curve="false">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -2741,7 +2749,7 @@
      <series _type="PieSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma" size="10.0"/>
+        <font name="Verdana" size="10.0"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -2795,7 +2803,7 @@
        </minorGrid>
        <label>
         <caption>
-         <font name="Tahoma" size="10.0"/>
+         <font name="Verdana" size="10.0"/>
          <color _body=",255,85,85,85"/>
         </caption>
         <background _nil="1"/>
@@ -2813,7 +2821,7 @@
      <series _type="ScatterSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -2835,7 +2843,7 @@
      <series _type="StockSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -2854,7 +2862,7 @@
      <series _type="BubbleSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -2879,7 +2887,7 @@
      <series _type="DifferenceSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -2906,7 +2914,7 @@
      <series _type="GanttSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -2926,7 +2934,7 @@
       </outline>
       <decorationLabel>
        <caption>
-        <font name="Tahoma"/>
+        <font name="Verdana"/>
         <color _body=",255,85,85,85"/>
        </caption>
        <background _nil="1"/>
@@ -2938,7 +2946,7 @@
      <series _type="RadarSeries" seriesIdentifier="">
       <label>
        <caption>
-        <font name="Tahoma" size="10.0">
+        <font name="Verdana" size="10.0">
          <alignment/>
         </font>
         <color _body=",255,85,85,85"/>
@@ -2958,7 +2966,7 @@
       </webLineAttributes>
       <webLabel>
        <caption>
-        <font name="Tahoma" size="10.0">
+        <font name="Verdana" size="10.0">
          <alignment/>
         </font>
         <color _body=",255,85,85,85"/>
@@ -2968,7 +2976,7 @@
       </webLabel>
       <catLabel>
        <caption>
-        <font name="Tahoma" size="10.0">
+        <font name="Verdana" size="10.0">
          <alignment/>
         </font>
         <color _body=",255,85,85,85"/>
@@ -2983,7 +2991,7 @@
     </lineAttributes>
     <label>
      <caption>
-      <font name="Tahoma" size="10.0"/>
+      <font name="Verdana" size="10.0"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -3014,7 +3022,7 @@
    <ancillaryAxes>
     <title>
      <caption>
-      <font name="Tahoma"/>
+      <font name="Verdana"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -3042,7 +3050,7 @@
     </lineAttributes>
     <label>
      <caption>
-      <font name="Tahoma" size="10.0"/>
+      <font name="Verdana" size="10.0"/>
       <color _body=",255,85,85,85"/>
      </caption>
      <background _nil="1"/>
@@ -3103,7 +3111,7 @@
    </lineAttributes>
    <label>
     <caption>
-     <font name="Tahoma" size="10.0"/>
+     <font name="Verdana" size="10.0"/>
      <color _body=",255,85,85,85"/>
     </caption>
     <background _nil="1"/>
@@ -3140,8 +3148,8 @@
         <report-item-theme type="Table" name="Modern Table" id="947">
             <styles>
                 <style name="table" id="948">
-                    <property name="fontFamily">"Tahoma"</property>
-                    <property name="fontSize">8pt</property>
+                    <property name="fontFamily">"Verdana"</property>
+                    <property name="fontSize">10pt</property>
                     <property name="color">#666666</property>
                     <property name="borderBottomColor">#DADADA</property>
                     <property name="borderBottomStyle">solid</property>
@@ -3157,6 +3165,8 @@
                     <property name="borderTopWidth">1px</property>
                 </style>
                 <style name="table-detail-cell" id="949">
+                    <property name="fontFamily">"Verdana"</property>
+                    <property name="color">#808080</property>
                     <property name="borderBottomColor">#DADADA</property>
                     <property name="borderBottomStyle">solid</property>
                     <property name="borderBottomWidth">1px</property>
@@ -3171,9 +3181,11 @@
                     <property name="borderTopWidth">1px</property>
                 </style>
                 <style name="table-footer-cell" id="950">
-                    <property name="backgroundColor">#EDEEF3</property>
+                    <property name="backgroundColor">#0079C1</property>
+                    <property name="fontFamily">"Verdana"</property>
+                    <property name="fontSize">10pt</property>
                     <property name="fontWeight">bold</property>
-                    <property name="color">#666666</property>
+                    <property name="color">#FFFFFF</property>
                     <property name="borderBottomColor">#DADADA</property>
                     <property name="borderBottomStyle">solid</property>
                     <property name="borderBottomWidth">1px</property>
@@ -3188,6 +3200,9 @@
                     <property name="borderTopWidth">1px</property>
                 </style>
                 <style name="table-group-footer-cell" id="951">
+                    <property name="backgroundColor">#D4DEE2</property>
+                    <property name="fontFamily">"Verdana"</property>
+                    <property name="color">#808080</property>
                     <property name="borderBottomColor">#DADADA</property>
                     <property name="borderBottomStyle">solid</property>
                     <property name="borderBottomWidth">1px</property>
@@ -3202,6 +3217,8 @@
                     <property name="borderTopWidth">1px</property>
                 </style>
                 <style name="table-group-header-cell" id="952">
+                    <property name="backgroundColor">#D4DEE2</property>
+                    <property name="fontFamily">"Verdana"</property>
                     <property name="borderBottomColor">#DADADA</property>
                     <property name="borderBottomStyle">solid</property>
                     <property name="borderBottomWidth">1px</property>
@@ -3216,9 +3233,11 @@
                     <property name="borderTopWidth">1px</property>
                 </style>
                 <style name="table-header-cell" id="953">
-                    <property name="backgroundColor">#EDEEF3</property>
+                    <property name="backgroundColor">#0079C1</property>
+                    <property name="fontFamily">"Verdana"</property>
+                    <property name="fontSize">10pt</property>
                     <property name="fontWeight">bold</property>
-                    <property name="color">#666666</property>
+                    <property name="color">#FFFFFF</property>
                     <property name="borderBottomColor">#DADADA</property>
                     <property name="borderBottomStyle">solid</property>
                     <property name="borderBottomWidth">1px</property>
