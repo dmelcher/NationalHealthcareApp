@@ -390,7 +390,7 @@
     <data-sources>
         <data-mart-data-source name="Patient Data" id="7">
             <property name="datamartURL">Data Objects/PatientData</property>
-            <property name="accessType">transient</property>
+            <property name="accessType">latest</property>
         </data-mart-data-source>
     </data-sources>
     <data-sets>
