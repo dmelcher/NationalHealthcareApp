@@ -633,6 +633,20 @@
     <property name="237.Occupation Data Set.y">238</property>
     <property name="237.Occupation Data Set.width">150</property>
     <property name="237.Occupation Data Set.height">200</property>
+    <list-property name="propertyBindings">
+        <structure>
+            <property name="name">queryText</property>
+            <property name="id">106</property>
+        </structure>
+        <structure>
+            <property name="name">queryTimeOut</property>
+            <property name="id">106</property>
+        </structure>
+        <structure>
+            <property name="name">rowFetchSize</property>
+            <property name="id">106</property>
+        </structure>
+    </list-property>
     <data-sources>
         <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Data Source" id="105">
             <list-property name="privateDriverProperties">
@@ -659,7 +673,8 @@
     </data-sources>
     <data-sets>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Diagnostics Fact Data Set" id="106">
-            <property name="isVisible">false</property>
+            <property name="isVisible">true</property>
+            <property name="nullsOrdering">nulls lowest</property>
             <list-property name="columnHints">
                 <structure>
                     <property name="columnName">Contact History Id</property>
@@ -1182,7 +1197,8 @@ where
 </model:DesignValues>]]></xml-property>
         </oda-data-set>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Age Band Data Set" id="107">
-            <property name="isVisible">false</property>
+            <property name="isVisible">true</property>
+            <property name="nullsOrdering">nulls lowest</property>
             <list-property name="columnHints">
                 <structure>
                     <property name="columnName">Age</property>
@@ -1199,6 +1215,11 @@ where
                     <text-property name="displayName">Age Band</text-property>
                     <text-property name="heading">Age Band</text-property>
                     <property name="horizontalAlign">left</property>
+                    <structure name="action">
+                        <property name="targetWindow">_blank</property>
+                        <property name="linkType">hyperlink</property>
+                        <expression name="uri" type="constant">http://actuateone:8114/bafrontend/client/build/client.jsp</expression>
+                    </structure>
                     <property name="indexColumn">false</property>
                     <property name="compressed">false</property>
                 </structure>
@@ -1294,7 +1315,8 @@ ORDER BY [Age]]]></xml-property>
 </model:DesignValues>]]></xml-property>
         </oda-data-set>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Contact Date Data Set" id="109">
-            <property name="isVisible">false</property>
+            <property name="isVisible">true</property>
+            <property name="nullsOrdering">nulls lowest</property>
             <list-property name="columnHints">
                 <structure>
                     <property name="columnName">Contact Date</property>
@@ -1621,7 +1643,8 @@ ORDER BY [Age]]]></xml-property>
 </model:DesignValues>]]></xml-property>
         </oda-data-set>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Diagnostic Data Set" id="126">
-            <property name="isVisible">false</property>
+            <property name="isVisible">true</property>
+            <property name="nullsOrdering">nulls lowest</property>
             <list-property name="columnHints">
                 <structure>
                     <property name="columnName">Diagnostic CIE</property>
@@ -1732,7 +1755,8 @@ ORDER BY [Age]]]></xml-property>
 </model:DesignValues>]]></xml-property>
         </oda-data-set>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Gender Data Set" id="130">
-            <property name="isVisible">false</property>
+            <property name="isVisible">true</property>
+            <property name="nullsOrdering">nulls lowest</property>
             <list-property name="columnHints">
                 <structure>
                     <property name="columnName">Gender</property>
@@ -1843,7 +1867,8 @@ ORDER BY [Gender],[Gender Decode]]]></xml-property>
 </model:DesignValues>]]></xml-property>
         </oda-data-set>
         <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Income Data Set" id="134">
-            <property name="isVisible">false</property>
+            <property name="isVisible">true</property>
+            <property name="nullsOrdering">nulls lowest</property>
             <list-property name="computedColumns">
                 <structure>
                     <property name="name">Income Band</property>

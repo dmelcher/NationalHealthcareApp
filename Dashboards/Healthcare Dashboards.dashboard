@@ -9,7 +9,7 @@
     </list-property>
     <property name="dashboardView">
         <dashboard id="2">
-            <property name="activeTab">08504465-b4e8-447a-9dbe-fdf671c83a0c</property>
+            <property name="activeTab">07e7d1e2-0d44-479e-a5f4-dd34deb34585</property>
             <property name="tabs">
                 <tab-element name="07e7d1e2-0d44-479e-a5f4-dd34deb34585" id="9">
                     <property name="title">Performance Indicators</property>
@@ -21,10 +21,10 @@
                     <property name="externalTab">/Applications/NationalHealthcareApp/Dashboards/Key Performance Trends.dashboard</property>
                     <property name="externalTabName">180a3b33-87c3-4efd-af27-ac689d7b111c</property>
                 </tab-element>
-                <tab-element name="1e0bf1c3-bf9f-439f-a48a-ce2be9a42cbd" id="16">
+                <tab-element name="55a22e25-df7b-4287-ac20-d3191f8bfcb5" id="18">
                     <property name="title">Cost of Care</property>
-                    <property name="externalTab">/Applications/NationalHealthcareApp/Dashboards/Cost of Care.dashboard</property>
-                    <property name="externalTabName">180a3b33-87c3-4efd-af27-ac689d7b111c</property>
+                    <property name="externalTab">/Applications/NationalHealthcareApp/Dashboards/Cost Of Care.dashboard</property>
+                    <property name="externalTabName">6930759a-e571-468f-a504-c86338b3c4371</property>
                 </tab-element>
                 <tab-element name="eb977d80-75c3-44e5-a71f-3dd16594de14" id="12">
                     <property name="title">Briefing Book</property>

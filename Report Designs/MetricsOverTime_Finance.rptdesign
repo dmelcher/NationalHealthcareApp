@@ -4852,9 +4852,9 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
       <triggers condition="2">
        <action type="0">
         <value _type="MultiURLValues">
-         <uRLValues baseUrl="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;hyperlink&lt;/property&gt;&#10;    &lt;expression name=&quot;uri&quot; type=&quot;javascript&quot;&gt;&quot;http://localhost/Scorecard/portal_dashboard.aspx?viewID=726713787&amp;amp;measureID=&quot; + row[&quot;MeasureID&quot;] + &quot;&amp;amp;locationID=&quot; + row[&quot;LocationID&quot;] + &quot;&amp;amp;periodID=-222907516&amp;amp;s=ACTUATEONE&amp;amp;d=National+Healthcare&amp;amp;m=Standard&amp;amp;u=sysadmin&amp;amp;p=sysadmin&quot;&lt;/expression&gt;&#10;    &lt;property name=&quot;targetWindow&quot;&gt;_blank&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" baseParameterName="" valueParameterName="" seriesParameterName="">
+         <uRLValues baseUrl="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;hyperlink&lt;/property&gt;&#10;    &lt;expression name=&quot;uri&quot; type=&quot;constant&quot;&gt;http://actuateone/Scorecard/directURL_dashboard.aspx?viewID=-729470523&lt;/expression&gt;&#10;    &lt;property name=&quot;targetWindow&quot;&gt;_blank&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" baseParameterName="" valueParameterName="" seriesParameterName="">
           <label>
-           <caption value="Drill to Detail"/>
+           <caption value="Drill"/>
           </label>
          </uRLValues>
          <propertiesMap key="MenuItem" value="color:Black;fontSize:10pt;paddingLeft:10px;paddingRight:10px;paddingTop:2px;paddingBottom:2px"/>
@@ -5041,7 +5041,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 <structure>
                     <property name="targetWindow">_blank</property>
                     <property name="linkType">hyperlink</property>
-                    <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=726713787&amp;measureID=" + row["MeasureID"] + "&amp;locationID=" + row["LocationID"] + "&amp;periodID=-222907516&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                    <expression name="uri" type="constant">http://actuateone/Scorecard/directURL_dashboard.aspx?viewID=-729470523</expression>
                 </structure>
             </list-property>
             <list-property name="filter">
