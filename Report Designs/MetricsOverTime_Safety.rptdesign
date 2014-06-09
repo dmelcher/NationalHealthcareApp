@@ -3,7 +3,7 @@
     <property name="createdBy">Eclipse BIRT Designer Version 4.2.3.v20131216-0430 Build &lt;4.2.3.v20131216-0430></property>
     <xml-property name="externalMetadata">
         <external-datamarts>
-            <datamart-node location="file:/C:/Users/ActuateUser/git/National%20Healthcare/Data%20Objects/Healthcare%20Scorecard.data">
+            <datamart-node location="file:/C:/Users/ActuateUser/git/National%20Healthcare/Data%20Objects/Healthcare.data">
                 <reference-elements>Scorecard;</reference-elements>
                 <datamart xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
                     <property name="createdBy">Eclipse BIRT Designer Version 4.2.3.v20131216-0430 Build &lt;4.2.3.v20131216-0430></property>
@@ -68,6 +68,66 @@
                             <property name="type">integer</property>
                             <property name="isVisible">false</property>
                         </structure>
+                        <structure>
+                            <property name="name">43.List of Measures.x</property>
+                            <property name="type">integer</property>
+                            <property name="isVisible">false</property>
+                        </structure>
+                        <structure>
+                            <property name="name">43.List of Measures.y</property>
+                            <property name="type">integer</property>
+                            <property name="isVisible">false</property>
+                        </structure>
+                        <structure>
+                            <property name="name">43.List of Measures.width</property>
+                            <property name="type">integer</property>
+                            <property name="isVisible">false</property>
+                        </structure>
+                        <structure>
+                            <property name="name">43.List of Measures.height</property>
+                            <property name="type">integer</property>
+                            <property name="isVisible">false</property>
+                        </structure>
+                        <structure>
+                            <property name="name">43.List of Locations.x</property>
+                            <property name="type">integer</property>
+                            <property name="isVisible">false</property>
+                        </structure>
+                        <structure>
+                            <property name="name">43.List of Locations.y</property>
+                            <property name="type">integer</property>
+                            <property name="isVisible">false</property>
+                        </structure>
+                        <structure>
+                            <property name="name">43.List of Locations.width</property>
+                            <property name="type">integer</property>
+                            <property name="isVisible">false</property>
+                        </structure>
+                        <structure>
+                            <property name="name">43.List of Locations.height</property>
+                            <property name="type">integer</property>
+                            <property name="isVisible">false</property>
+                        </structure>
+                        <structure>
+                            <property name="name">43.List of Periods.x</property>
+                            <property name="type">integer</property>
+                            <property name="isVisible">false</property>
+                        </structure>
+                        <structure>
+                            <property name="name">43.List of Periods.y</property>
+                            <property name="type">integer</property>
+                            <property name="isVisible">false</property>
+                        </structure>
+                        <structure>
+                            <property name="name">43.List of Periods.width</property>
+                            <property name="type">integer</property>
+                            <property name="isVisible">false</property>
+                        </structure>
+                        <structure>
+                            <property name="name">43.List of Periods.height</property>
+                            <property name="type">integer</property>
+                            <property name="isVisible">false</property>
+                        </structure>
                     </list-property>
                     <property name="43.Commentary.x">790</property>
                     <property name="43.Commentary.y">14</property>
@@ -81,6 +141,28 @@
                     <property name="43.Hierarchy Info From View.y">12</property>
                     <property name="43.Hierarchy Info From View.width">150</property>
                     <property name="43.Hierarchy Info From View.height">200</property>
+                    <property name="43.List of Measures.x">293</property>
+                    <property name="43.List of Measures.y">247</property>
+                    <property name="43.List of Measures.width">150</property>
+                    <property name="43.List of Measures.height">200</property>
+                    <property name="43.List of Locations.x">93</property>
+                    <property name="43.List of Locations.y">245</property>
+                    <property name="43.List of Locations.width">150</property>
+                    <property name="43.List of Locations.height">200</property>
+                    <property name="43.List of Periods.x">693</property>
+                    <property name="43.List of Periods.y">248</property>
+                    <property name="43.List of Periods.width">150</property>
+                    <property name="43.List of Periods.height">200</property>
+                    <list-property name="propertyBindings">
+                        <structure>
+                            <property name="name">queryText</property>
+                            <property name="id">140</property>
+                        </structure>
+                        <structure>
+                            <property name="name">queryText</property>
+                            <property name="id">3</property>
+                        </structure>
+                    </list-property>
                     <data-sources>
                         <oda-data-source extensionID="com.actuate.data.oda.birt360plus" name="Data Source" id="2">
                             <list-property name="privateDriverProperties">
@@ -95,6 +177,8 @@
                     </data-sources>
                     <data-sets>
                         <oda-data-set extensionID="com.actuate.data.oda.birt360plus.dataSet" name="List of Views" id="3">
+                            <property name="isVisible">true</property>
+                            <property name="nullsOrdering">nulls lowest</property>
                             <list-property name="columnHints">
                                 <structure>
                                     <property name="columnName">Id</property>
@@ -4154,6 +4238,763 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                                 </ex-property>
                             </list-property>
                         </oda-data-set>
+                        <oda-data-set extensionID="com.actuate.data.oda.birt360plus.dataSet" name="List of Measures" id="140">
+                            <property name="isVisible">true</property>
+                            <property name="nullsOrdering">nulls lowest</property>
+                            <list-property name="columnHints">
+                                <structure>
+                                    <property name="columnName">Id</property>
+                                    <property name="analysis">measure</property>
+                                    <text-property name="displayName">Id</text-property>
+                                    <text-property name="heading">Id</text-property>
+                                    <property name="indexColumn">false</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">Name</property>
+                                    <property name="analysis">dimension</property>
+                                    <text-property name="displayName">Name</text-property>
+                                    <text-property name="heading">Name</text-property>
+                                    <property name="indexColumn">false</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">Description</property>
+                                    <property name="analysis">dimension</property>
+                                    <text-property name="displayName">Description</text-property>
+                                    <text-property name="heading">Description</text-property>
+                                    <property name="indexColumn">false</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">SeqNo</property>
+                                    <property name="analysis">measure</property>
+                                    <text-property name="displayName">SeqNo</text-property>
+                                    <text-property name="heading">SeqNo</text-property>
+                                    <property name="indexColumn">false</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                            </list-property>
+                            <list-property name="parameters">
+                                <structure>
+                                    <property name="name">objKindName</property>
+                                    <property name="nativeName">objKindName</property>
+                                    <property name="dataType">string</property>
+                                    <property name="nativeDataType">1</property>
+                                    <property name="position">1</property>
+                                    <expression name="defaultValue" type="constant">Measure</expression>
+                                    <property name="isOptional">false</property>
+                                    <property name="isInput">true</property>
+                                    <property name="isOutput">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">includeDescriptions</property>
+                                    <property name="nativeName">includeDescriptions</property>
+                                    <property name="dataType">string</property>
+                                    <property name="nativeDataType">1</property>
+                                    <property name="position">2</property>
+                                    <expression name="defaultValue" type="javascript">""</expression>
+                                    <property name="isOptional">false</property>
+                                    <property name="isInput">true</property>
+                                    <property name="isOutput">false</property>
+                                </structure>
+                            </list-property>
+                            <structure name="cachedMetaData">
+                                <list-property name="resultSet">
+                                    <structure>
+                                        <property name="position">1</property>
+                                        <property name="name">Id</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">2</property>
+                                        <property name="name">Name</property>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">3</property>
+                                        <property name="name">Description</property>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">4</property>
+                                        <property name="name">SeqNo</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                </list-property>
+                            </structure>
+                            <property name="dataSource">Data Source</property>
+                            <list-property name="resultSet">
+                                <structure>
+                                    <property name="position">1</property>
+                                    <property name="name">Id</property>
+                                    <property name="nativeName">Id</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">2</property>
+                                    <property name="name">Name</property>
+                                    <property name="nativeName">Name</property>
+                                    <property name="dataType">string</property>
+                                    <property name="nativeDataType">1</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">3</property>
+                                    <property name="name">Description</property>
+                                    <property name="nativeName">Description</property>
+                                    <property name="dataType">string</property>
+                                    <property name="nativeDataType">1</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">4</property>
+                                    <property name="name">SeqNo</property>
+                                    <property name="nativeName">SeqNo</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                            </list-property>
+                            <xml-property name="queryText"><![CDATA[<?xml version="1.0"?>
+<SOAP-ENV:Envelope
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Body>
+		<m:GetListOfObjects xmlns:m="http://www.actuate.com/birt360plus">
+			<m:objKindName xsi:type="xsd:string">&amp;?objKindName?&amp;</m:objKindName>
+			<m:includeDescriptions xsi:type="xsd:string">&amp;?includeDescriptions?&amp;</m:includeDescriptions>
+		</m:GetListOfObjects>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>]]></xml-property>
+                            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>2.0</Version>
+  <DataSetParameters>
+    <parameter>
+      <design:ParameterDefinition>
+        <design:inOutMode>In</design:inOutMode>
+        <design:attributes>
+          <design:identifier>
+            <design:name>objKindName</design:name>
+            <design:position>1</design:position>
+          </design:identifier>
+          <design:nativeDataTypeCode>1</design:nativeDataTypeCode>
+          <design:precision>-1</design:precision>
+          <design:scale>-1</design:scale>
+          <design:nullability>Unknown</design:nullability>
+        </design:attributes>
+        <design:inputAttributes>
+          <design:elementAttributes>
+            <design:defaultValues>
+              <design:values>Measure</design:values>
+            </design:defaultValues>
+          </design:elementAttributes>
+        </design:inputAttributes>
+      </design:ParameterDefinition>
+    </parameter>
+    <parameter>
+      <design:ParameterDefinition>
+        <design:inOutMode>In</design:inOutMode>
+        <design:attributes>
+          <design:identifier>
+            <design:name>includeDescriptions</design:name>
+            <design:position>2</design:position>
+          </design:identifier>
+          <design:nativeDataTypeCode>1</design:nativeDataTypeCode>
+          <design:precision>-1</design:precision>
+          <design:scale>-1</design:scale>
+          <design:nullability>Unknown</design:nullability>
+        </design:attributes>
+        <design:inputAttributes>
+          <design:elementAttributes>
+            <design:defaultValues>
+              <design:values></design:values>
+            </design:defaultValues>
+          </design:elementAttributes>
+        </design:inputAttributes>
+      </design:ParameterDefinition>
+    </parameter>
+  </DataSetParameters>
+  <design:ResultSets derivedMetaData="true">
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Id</design:name>
+              <design:position>1</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+            <design:uiHints>
+              <design:displayName>Id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>Id</design:label>
+            <design:formattingHints>
+              <design:displaySize>10</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Name</design:name>
+              <design:position>2</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>1</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+            <design:uiHints>
+              <design:displayName>Name</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>Name</design:label>
+            <design:formattingHints>
+              <design:displaySize>10</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Description</design:name>
+              <design:position>3</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>1</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+            <design:uiHints>
+              <design:displayName>Description</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>Description</design:label>
+            <design:formattingHints>
+              <design:displaySize>10</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>SeqNo</design:name>
+              <design:position>4</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+            <design:uiHints>
+              <design:displayName>SeqNo</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>SeqNo</design:label>
+            <design:formattingHints>
+              <design:displaySize>10</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+      <design:criteria/>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+                            <list-property name="privateDriverProperties">
+                                <ex-property>
+                                    <name>operationTrace</name>
+                                    <value>Birt360PlusService$-$Birt360PlusServiceSoap12$-$GetListOfObjects</value>
+                                </ex-property>
+                                <ex-property>
+                                    <name>selectedColumnInfo</name>
+                                    <value>"Id","Id",Integer;"Name","Name",String;"Description","Description",String;"SeqNo","SeqNo",Integer</value>
+                                </ex-property>
+                            </list-property>
+                        </oda-data-set>
+                        <oda-data-set extensionID="com.actuate.data.oda.birt360plus.dataSet" name="List of Locations" id="149">
+                            <property name="isVisible">true</property>
+                            <property name="nullsOrdering">nulls lowest</property>
+                            <list-property name="columnHints">
+                                <structure>
+                                    <property name="columnName">Id</property>
+                                    <property name="analysis">measure</property>
+                                    <text-property name="displayName">Id</text-property>
+                                    <text-property name="heading">Id</text-property>
+                                    <property name="indexColumn">false</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">Name</property>
+                                    <property name="analysis">dimension</property>
+                                    <text-property name="displayName">Name</text-property>
+                                    <text-property name="heading">Name</text-property>
+                                    <property name="indexColumn">false</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">Description</property>
+                                    <property name="analysis">dimension</property>
+                                    <text-property name="displayName">Description</text-property>
+                                    <text-property name="heading">Description</text-property>
+                                    <property name="indexColumn">false</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">SeqNo</property>
+                                    <property name="analysis">measure</property>
+                                    <text-property name="displayName">SeqNo</text-property>
+                                    <text-property name="heading">SeqNo</text-property>
+                                    <property name="indexColumn">false</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                            </list-property>
+                            <list-property name="parameters">
+                                <structure>
+                                    <property name="name">objKindName</property>
+                                    <property name="nativeName">objKindName</property>
+                                    <property name="dataType">string</property>
+                                    <property name="nativeDataType">1</property>
+                                    <property name="position">1</property>
+                                    <expression name="defaultValue" type="constant">Location</expression>
+                                    <property name="isOptional">false</property>
+                                    <property name="isInput">true</property>
+                                    <property name="isOutput">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">includeDescriptions</property>
+                                    <property name="nativeName">includeDescriptions</property>
+                                    <property name="dataType">string</property>
+                                    <property name="nativeDataType">1</property>
+                                    <property name="position">2</property>
+                                    <expression name="defaultValue" type="javascript">""</expression>
+                                    <property name="isOptional">false</property>
+                                    <property name="isInput">true</property>
+                                    <property name="isOutput">false</property>
+                                </structure>
+                            </list-property>
+                            <structure name="cachedMetaData">
+                                <list-property name="resultSet">
+                                    <structure>
+                                        <property name="position">1</property>
+                                        <property name="name">Id</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">2</property>
+                                        <property name="name">Name</property>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">3</property>
+                                        <property name="name">Description</property>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">4</property>
+                                        <property name="name">SeqNo</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                </list-property>
+                            </structure>
+                            <property name="dataSource">Data Source</property>
+                            <list-property name="resultSet">
+                                <structure>
+                                    <property name="position">1</property>
+                                    <property name="name">Id</property>
+                                    <property name="nativeName">Id</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">2</property>
+                                    <property name="name">Name</property>
+                                    <property name="nativeName">Name</property>
+                                    <property name="dataType">string</property>
+                                    <property name="nativeDataType">1</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">3</property>
+                                    <property name="name">Description</property>
+                                    <property name="nativeName">Description</property>
+                                    <property name="dataType">string</property>
+                                    <property name="nativeDataType">1</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">4</property>
+                                    <property name="name">SeqNo</property>
+                                    <property name="nativeName">SeqNo</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                            </list-property>
+                            <xml-property name="queryText"><![CDATA[<?xml version="1.0"?>
+<SOAP-ENV:Envelope
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Body>
+		<m:GetListOfObjects xmlns:m="http://www.actuate.com/birt360plus">
+			<m:objKindName xsi:type="xsd:string">&amp;?objKindName?&amp;</m:objKindName>
+			<m:includeDescriptions xsi:type="xsd:string">&amp;?includeDescriptions?&amp;</m:includeDescriptions>
+		</m:GetListOfObjects>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>]]></xml-property>
+                            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>2.0</Version>
+  <DataSetParameters>
+    <parameter>
+      <design:ParameterDefinition>
+        <design:inOutMode>In</design:inOutMode>
+        <design:attributes>
+          <design:identifier>
+            <design:name>objKindName</design:name>
+            <design:position>1</design:position>
+          </design:identifier>
+          <design:nativeDataTypeCode>1</design:nativeDataTypeCode>
+          <design:precision>-1</design:precision>
+          <design:scale>-1</design:scale>
+          <design:nullability>Unknown</design:nullability>
+        </design:attributes>
+        <design:inputAttributes>
+          <design:elementAttributes>
+            <design:defaultValues>
+              <design:values>Measure</design:values>
+            </design:defaultValues>
+          </design:elementAttributes>
+        </design:inputAttributes>
+      </design:ParameterDefinition>
+    </parameter>
+    <parameter>
+      <design:ParameterDefinition>
+        <design:inOutMode>In</design:inOutMode>
+        <design:attributes>
+          <design:identifier>
+            <design:name>includeDescriptions</design:name>
+            <design:position>2</design:position>
+          </design:identifier>
+          <design:nativeDataTypeCode>1</design:nativeDataTypeCode>
+          <design:precision>-1</design:precision>
+          <design:scale>-1</design:scale>
+          <design:nullability>Unknown</design:nullability>
+        </design:attributes>
+        <design:inputAttributes>
+          <design:elementAttributes>
+            <design:defaultValues>
+              <design:values></design:values>
+            </design:defaultValues>
+          </design:elementAttributes>
+        </design:inputAttributes>
+      </design:ParameterDefinition>
+    </parameter>
+  </DataSetParameters>
+  <design:ResultSets derivedMetaData="true">
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Id</design:name>
+              <design:position>1</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+            <design:uiHints>
+              <design:displayName>Id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>Id</design:label>
+            <design:formattingHints>
+              <design:displaySize>10</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Name</design:name>
+              <design:position>2</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>1</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+            <design:uiHints>
+              <design:displayName>Name</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>Name</design:label>
+            <design:formattingHints>
+              <design:displaySize>10</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Description</design:name>
+              <design:position>3</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>1</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+            <design:uiHints>
+              <design:displayName>Description</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>Description</design:label>
+            <design:formattingHints>
+              <design:displaySize>10</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>SeqNo</design:name>
+              <design:position>4</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+            <design:uiHints>
+              <design:displayName>SeqNo</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>SeqNo</design:label>
+            <design:formattingHints>
+              <design:displaySize>10</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+      <design:criteria/>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+                            <list-property name="privateDriverProperties">
+                                <ex-property>
+                                    <name>operationTrace</name>
+                                    <value>Birt360PlusService$-$Birt360PlusServiceSoap12$-$GetListOfObjects</value>
+                                </ex-property>
+                                <ex-property>
+                                    <name>selectedColumnInfo</name>
+                                    <value>"Id","Id",Integer;"Name","Name",String;"Description","Description",String;"SeqNo","SeqNo",Integer</value>
+                                </ex-property>
+                            </list-property>
+                        </oda-data-set>
+                        <oda-data-set extensionID="com.actuate.data.oda.birt360plus.dataSet" name="List of Periods" id="165">
+                            <list-property name="columnHints">
+                                <structure>
+                                    <property name="columnName">Id</property>
+                                    <property name="analysis">measure</property>
+                                    <text-property name="displayName">PeriodID</text-property>
+                                    <text-property name="heading">PeriodID</text-property>
+                                    <property name="indexColumn">false</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">Name</property>
+                                    <property name="analysis">dimension</property>
+                                    <text-property name="displayName">Name</text-property>
+                                    <text-property name="heading">Name</text-property>
+                                    <property name="indexColumn">false</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                            </list-property>
+                            <list-property name="parameters">
+                                <structure>
+                                    <property name="name">objKindName</property>
+                                    <property name="nativeName">objKindName</property>
+                                    <property name="dataType">string</property>
+                                    <property name="nativeDataType">1</property>
+                                    <property name="position">1</property>
+                                    <expression name="defaultValue" type="javascript">"Period"</expression>
+                                    <property name="isOptional">false</property>
+                                    <property name="isInput">true</property>
+                                    <property name="isOutput">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">includeDescriptions</property>
+                                    <property name="nativeName">includeDescriptions</property>
+                                    <property name="nativeDataType">1</property>
+                                    <property name="position">2</property>
+                                    <expression name="defaultValue" type="javascript">""</expression>
+                                    <property name="isOptional">false</property>
+                                    <property name="isInput">true</property>
+                                </structure>
+                            </list-property>
+                            <structure name="cachedMetaData">
+                                <list-property name="resultSet">
+                                    <structure>
+                                        <property name="position">1</property>
+                                        <property name="name">Id</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">2</property>
+                                        <property name="name">Name</property>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                </list-property>
+                            </structure>
+                            <property name="dataSource">Data Source</property>
+                            <list-property name="resultSet">
+                                <structure>
+                                    <property name="position">1</property>
+                                    <property name="name">Id</property>
+                                    <property name="nativeName">Id</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">2</property>
+                                    <property name="name">Name</property>
+                                    <property name="nativeName">Name</property>
+                                    <property name="dataType">string</property>
+                                    <property name="nativeDataType">1</property>
+                                </structure>
+                            </list-property>
+                            <xml-property name="queryText"><![CDATA[<?xml version="1.0"?>
+<SOAP-ENV:Envelope
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Body>
+		<m:GetListOfObjects xmlns:m="http://www.actuate.com/birt360plus">
+			<m:objKindName xsi:type="xsd:string">&amp;?objKindName?&amp;</m:objKindName>
+			<m:includeDescriptions xsi:type="xsd:string">&amp;?includeDescriptions?&amp;</m:includeDescriptions>
+		</m:GetListOfObjects>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>]]></xml-property>
+                            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>2.0</Version>
+  <DataSetParameters>
+    <parameter>
+      <design:ParameterDefinition>
+        <design:inOutMode>In</design:inOutMode>
+        <design:attributes>
+          <design:identifier>
+            <design:name>objKindName</design:name>
+            <design:position>1</design:position>
+          </design:identifier>
+          <design:nativeDataTypeCode>1</design:nativeDataTypeCode>
+          <design:precision>-1</design:precision>
+          <design:scale>-1</design:scale>
+          <design:nullability>Unknown</design:nullability>
+        </design:attributes>
+        <design:inputAttributes>
+          <design:elementAttributes>
+            <design:defaultValues>
+              <design:values></design:values>
+            </design:defaultValues>
+          </design:elementAttributes>
+        </design:inputAttributes>
+      </design:ParameterDefinition>
+    </parameter>
+    <parameter>
+      <design:ParameterDefinition>
+        <design:inOutMode>In</design:inOutMode>
+        <design:attributes>
+          <design:identifier>
+            <design:name>includeDescriptions</design:name>
+            <design:position>2</design:position>
+          </design:identifier>
+          <design:nativeDataTypeCode>1</design:nativeDataTypeCode>
+          <design:precision>-1</design:precision>
+          <design:scale>-1</design:scale>
+          <design:nullability>Unknown</design:nullability>
+        </design:attributes>
+        <design:inputAttributes>
+          <design:elementAttributes>
+            <design:defaultValues>
+              <design:values></design:values>
+            </design:defaultValues>
+          </design:elementAttributes>
+        </design:inputAttributes>
+      </design:ParameterDefinition>
+    </parameter>
+  </DataSetParameters>
+  <design:ResultSets derivedMetaData="true">
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Id</design:name>
+              <design:position>1</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+            <design:uiHints>
+              <design:displayName>PeriodID</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>PeriodID</design:label>
+            <design:formattingHints>
+              <design:displaySize>10</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Name</design:name>
+              <design:position>2</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>1</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+            <design:uiHints>
+              <design:displayName>Name</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>Name</design:label>
+            <design:formattingHints>
+              <design:displaySize>10</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+      <design:criteria/>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+                            <list-property name="privateDriverProperties">
+                                <ex-property>
+                                    <name>operationTrace</name>
+                                    <value>Birt360PlusService$-$Birt360PlusServiceSoap12$-$GetListOfObjects</value>
+                                </ex-property>
+                                <ex-property>
+                                    <name>selectedColumnInfo</name>
+                                    <value>"PeriodID","Id",Integer;"Name","Name",String</value>
+                                </ex-property>
+                            </list-property>
+                        </oda-data-set>
                     </data-sets>
                     <parameters>
                         <scalar-parameter name="View" id="42">
@@ -4166,7 +5007,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                             <property name="dataType">string</property>
                             <property name="distinct">true</property>
                             <simple-property-list name="defaultValue">
-                                <value type="javascript">"Overall Health"</value>
+                                <value type="javascript">"Reporting View"</value>
                             </simple-property-list>
                             <list-property name="selectionList"/>
                             <property name="paramType">simple</property>
@@ -4192,6 +5033,15 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                                 </alias-data-set>
                                 <alias-data-set name="Commentary" id="129">
                                     <property name="originDataSet">Commentary</property>
+                                </alias-data-set>
+                                <alias-data-set name="List of Measures" id="142">
+                                    <property name="originDataSet">List of Measures</property>
+                                </alias-data-set>
+                                <alias-data-set name="List of Locations" id="157">
+                                    <property name="originDataSet">List of Locations</property>
+                                </alias-data-set>
+                                <alias-data-set name="List of Periods" id="166">
+                                    <property name="originDataSet">List of Periods</property>
                                 </alias-data-set>
                             </property>
                             <property name="columnLinks">
@@ -4300,6 +5150,51 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                                     <property name="rightAliasDataSet">Data Model/Commentary</property>
                                     <property name="allowPushdown">false</property>
                                 </column-link>
+                                <column-link id="148">
+                                    <structure name="leftColumn">
+                                        <property name="position">2</property>
+                                        <property name="name">Name</property>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                    <structure name="rightColumn">
+                                        <property name="position">1</property>
+                                        <property name="name">MeasureName</property>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                    <property name="leftAliasDataSet">Data Model/List of Measures</property>
+                                    <property name="rightAliasDataSet">Data Model/Measure Meta data</property>
+                                    <property name="allowPushdown">false</property>
+                                </column-link>
+                                <column-link id="164">
+                                    <structure name="leftColumn">
+                                        <property name="position">2</property>
+                                        <property name="name">Name</property>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                    <structure name="rightColumn">
+                                        <property name="position">2</property>
+                                        <property name="name">LocationName</property>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                    <property name="leftAliasDataSet">Data Model/List of Locations</property>
+                                    <property name="rightAliasDataSet">Data Model/Measure Meta data</property>
+                                    <property name="allowPushdown">false</property>
+                                </column-link>
+                                <column-link id="170">
+                                    <structure name="leftColumn">
+                                        <property name="position">2</property>
+                                        <property name="name">Name</property>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                    <structure name="rightColumn">
+                                        <property name="position">3</property>
+                                        <property name="name">PeriodName</property>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                    <property name="leftAliasDataSet">Data Model/List of Periods</property>
+                                    <property name="rightAliasDataSet">Data Model/Commentary</property>
+                                    <property name="allowPushdown">false</property>
+                                </column-link>
                             </property>
                             <property name="categories">
                                 <category name="Measure Meta data" id="49">
@@ -4312,70 +5207,6 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                                             <property name="aliasDataSet">Data Model/Measure Meta data</property>
                                             <property name="resultSetColumnName">LocationName</property>
                                         </category-column>
-                                        <category-column name="Description1" id="52">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">Description</property>
-                                        </category-column>
-                                        <category-column name="Notes" id="53">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">Notes</property>
-                                        </category-column>
-                                        <category-column name="Critical" id="54">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">Critical</property>
-                                        </category-column>
-                                        <category-column name="Owner" id="55">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">Owner</property>
-                                        </category-column>
-                                        <category-column name="OwnerAssistant" id="56">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">OwnerAssistant</property>
-                                        </category-column>
-                                        <category-column name="Link" id="57">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">Link</property>
-                                        </category-column>
-                                        <category-column name="UnitName" id="58">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">UnitName</property>
-                                        </category-column>
-                                        <category-column name="UnitDescription" id="59">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">UnitDescription</property>
-                                        </category-column>
-                                        <category-column name="UnitPrefix" id="60">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">UnitPrefix</property>
-                                        </category-column>
-                                        <category-column name="UnitSuffix" id="61">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">UnitSuffix</property>
-                                        </category-column>
-                                        <category-column name="UnitThousandSeparator" id="62">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">UnitThousandSeparator</property>
-                                        </category-column>
-                                        <category-column name="UnitDecimalSeparator" id="63">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">UnitDecimalSeparator</property>
-                                        </category-column>
-                                        <category-column name="UnitWholeDigits" id="64">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">UnitWholeDigits</property>
-                                        </category-column>
-                                        <category-column name="UnitDecimalDigits" id="65">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">UnitDecimalDigits</property>
-                                        </category-column>
-                                        <category-column name="Kind" id="66">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">Kind</property>
-                                        </category-column>
-                                        <category-column name="Polarity" id="67">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">Polarity</property>
-                                        </category-column>
                                         <category-column name="StoragePeriod" id="68">
                                             <property name="aliasDataSet">Data Model/Measure Meta data</property>
                                             <property name="resultSetColumnName">StoragePeriod</property>
@@ -4384,29 +5215,9 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                                             <property name="aliasDataSet">Data Model/Measure Meta data</property>
                                             <property name="resultSetColumnName">ConsolidationPeriod</property>
                                         </category-column>
-                                        <category-column name="LocationConsolidation" id="70">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">LocationConsolidation</property>
-                                        </category-column>
-                                        <category-column name="LocationIgnoreBlank" id="71">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">LocationIgnoreBlank</property>
-                                        </category-column>
                                         <category-column name="PeriodConsolidation" id="72">
                                             <property name="aliasDataSet">Data Model/Measure Meta data</property>
                                             <property name="resultSetColumnName">PeriodConsolidation</property>
-                                        </category-column>
-                                        <category-column name="PeriodIgnoreBlank" id="73">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">PeriodIgnoreBlank</property>
-                                        </category-column>
-                                        <category-column name="OrderOfCalculation" id="74">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">OrderOfCalculation</property>
-                                        </category-column>
-                                        <category-column name="Formula" id="75">
-                                            <property name="aliasDataSet">Data Model/Measure Meta data</property>
-                                            <property name="resultSetColumnName">Formula</property>
                                         </category-column>
                                         <category-column name="Submeasures" id="76">
                                             <property name="aliasDataSet">Data Model/Measure Meta data</property>
@@ -4484,22 +5295,6 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                                             <property name="aliasDataSet">Data Model/Hierarchy Info From View</property>
                                             <property name="resultSetColumnName">CompTxtColor</property>
                                         </category-column>
-                                        <category-column name="WorstMsrIdxRangeId" id="95">
-                                            <property name="aliasDataSet">Data Model/Hierarchy Info From View</property>
-                                            <property name="resultSetColumnName">WorstMsrIdxRangeId</property>
-                                        </category-column>
-                                        <category-column name="WorstMsrIdxColor" id="96">
-                                            <property name="aliasDataSet">Data Model/Hierarchy Info From View</property>
-                                            <property name="resultSetColumnName">WorstMsrIdxColor</property>
-                                        </category-column>
-                                        <category-column name="WorstLocIdxRangeId" id="97">
-                                            <property name="aliasDataSet">Data Model/Hierarchy Info From View</property>
-                                            <property name="resultSetColumnName">WorstLocIdxRangeId</property>
-                                        </category-column>
-                                        <category-column name="WorstLocIdxColor" id="98">
-                                            <property name="aliasDataSet">Data Model/Hierarchy Info From View</property>
-                                            <property name="resultSetColumnName">WorstLocIdxColor</property>
-                                        </category-column>
                                     </property>
                                 </category>
                                 <category name="Data From View" id="99">
@@ -4556,22 +5351,6 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                                             <property name="aliasDataSet">Data Model/Data From View</property>
                                             <property name="resultSetColumnName">CompTxtColor</property>
                                         </category-column>
-                                        <category-column name="WorstMsrIdxRangeId1" id="113">
-                                            <property name="aliasDataSet">Data Model/Data From View</property>
-                                            <property name="resultSetColumnName">WorstMsrIdxRangeId</property>
-                                        </category-column>
-                                        <category-column name="WorstMsrIdxColor1" id="114">
-                                            <property name="aliasDataSet">Data Model/Data From View</property>
-                                            <property name="resultSetColumnName">WorstMsrIdxColor</property>
-                                        </category-column>
-                                        <category-column name="WorstLocIdxRangeId1" id="115">
-                                            <property name="aliasDataSet">Data Model/Data From View</property>
-                                            <property name="resultSetColumnName">WorstLocIdxRangeId</property>
-                                        </category-column>
-                                        <category-column name="WorstLocIdxColor1" id="116">
-                                            <property name="aliasDataSet">Data Model/Data From View</property>
-                                            <property name="resultSetColumnName">WorstLocIdxColor</property>
-                                        </category-column>
                                     </property>
                                 </category>
                                 <category name="Commentary" id="117">
@@ -4588,21 +5367,41 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                                             <property name="aliasDataSet">Data Model/Commentary</property>
                                             <property name="resultSetColumnName">PeriodName</property>
                                         </category-column>
-                                        <category-column name="CommentaryType" id="121">
-                                            <property name="aliasDataSet">Data Model/Commentary</property>
-                                            <property name="resultSetColumnName">CommentaryType</property>
+                                    </property>
+                                </category>
+                                <category name="Category (List of Measures)" id="143">
+                                    <property name="categoryColumns">
+                                        <category-column name="MeasureID" id="144">
+                                            <property name="aliasDataSet">Data Model/List of Measures</property>
+                                            <property name="resultSetColumnName">Id</property>
                                         </category-column>
-                                        <category-column name="CommentaryText" id="122">
-                                            <property name="aliasDataSet">Data Model/Commentary</property>
-                                            <property name="resultSetColumnName">CommentaryText</property>
+                                        <category-column name="MeasureName2" id="145">
+                                            <property name="aliasDataSet">Data Model/List of Measures</property>
+                                            <property name="resultSetColumnName">Name</property>
                                         </category-column>
-                                        <category-column name="SignatureName" id="123">
-                                            <property name="aliasDataSet">Data Model/Commentary</property>
-                                            <property name="resultSetColumnName">SignatureName</property>
+                                    </property>
+                                </category>
+                                <category name="Category (List of Locations)" id="158">
+                                    <property name="categoryColumns">
+                                        <category-column name="LocationID" id="159">
+                                            <property name="aliasDataSet">Data Model/List of Locations</property>
+                                            <property name="resultSetColumnName">Id</property>
                                         </category-column>
-                                        <category-column name="SignatureTime" id="124">
-                                            <property name="aliasDataSet">Data Model/Commentary</property>
-                                            <property name="resultSetColumnName">SignatureTime</property>
+                                        <category-column name="LocationName2" id="160">
+                                            <property name="aliasDataSet">Data Model/List of Locations</property>
+                                            <property name="resultSetColumnName">Name</property>
+                                        </category-column>
+                                    </property>
+                                </category>
+                                <category name="Category (List of Periods)" id="167">
+                                    <property name="categoryColumns">
+                                        <category-column name="Id" id="168">
+                                            <property name="aliasDataSet">Data Model/List of Periods</property>
+                                            <property name="resultSetColumnName">Id</property>
+                                        </category-column>
+                                        <category-column name="Name" id="169">
+                                            <property name="aliasDataSet">Data Model/List of Periods</property>
+                                            <property name="resultSetColumnName">Name</property>
                                         </category-column>
                                     </property>
                                 </category>
@@ -4637,6 +5436,9 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
             <expression name="labelExpr" type="javascript">dataSetRow["LocationName"]</expression>
             <property name="dataType">string</property>
             <property name="distinct">true</property>
+            <simple-property-list name="defaultValue">
+                <value type="constant">All Hospitals</value>
+            </simple-property-list>
             <list-property name="selectionList"/>
             <property name="linkedDataModelName">Data Model</property>
             <property name="paramType">simple</property>
@@ -4678,7 +5480,6 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                     <simple-property-list name="defaultValue">
                         <value type="constant">MRI Burn Log</value>
                     </simple-property-list>
-                    <property name="linkedDataModelName">Data Model</property>
                     <property name="paramType">simple</property>
                     <property name="controlType">list-box</property>
                     <property name="mustMatch">false</property>
@@ -4690,12 +5491,12 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
     </parameters>
     <data-sources>
         <data-mart-data-source name="Scorecard" id="1314">
-            <property name="datamartURL">Data Objects/Healthcare Scorecard</property>
+            <property name="datamartURL">Data Objects/Healthcare</property>
             <property name="accessType">latest</property>
         </data-mart-data-source>
     </data-sources>
     <property name="linkedDataModels">
-        <data-mart-linked-data-model name="Data Model" id="1315">
+        <data-mart-linked-data-model name="Data Model" id="1481">
             <property name="dataSource">Scorecard</property>
             <property name="dataObject">Data Model</property>
         </data-mart-linked-data-model>
@@ -4828,7 +5629,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
      </outline>
     </title>
     <seriesDefinitions>
-     <query definition="row[&quot;MeasureName&quot;]">
+     <query definition="row[&quot;Measure&quot;]">
       <grouping/>
      </query>
      <series _type="LineSeries" seriesIdentifier="Series 1" stacked="false">
@@ -4852,7 +5653,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
       <triggers condition="2">
        <action type="0">
         <value _type="MultiURLValues">
-         <uRLValues baseUrl="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;hyperlink&lt;/property&gt;&#10;    &lt;expression name=&quot;uri&quot; type=&quot;constant&quot;&gt;http://actuateone/Scorecard/directURL_dashboard.aspx?viewID=-729470523&lt;/expression&gt;&#10;    &lt;property name=&quot;targetWindow&quot;&gt;_blank&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" baseParameterName="" valueParameterName="" seriesParameterName="">
+         <uRLValues baseUrl="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;hyperlink&lt;/property&gt;&#10;    &lt;expression name=&quot;uri&quot; type=&quot;javascript&quot;&gt;&#039;http://actuateone/scorecard/directURL_dashboard.aspx?viewID=-729470523&amp;amp;measureID=&#039; + row[&quot;MeasureID&quot;] + &#039;&amp;amp;locationID=&#039; + row[&quot;LocationID&quot;] + &#039;&amp;amp;periodID=&#039; + row[&quot;Id&quot;]&lt;/expression&gt;&#10;    &lt;property name=&quot;targetWindow&quot;&gt;_blank&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" baseParameterName="" valueParameterName="" seriesParameterName="">
           <label>
            <caption value="Drill"/>
           </label>
@@ -5041,23 +5842,23 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 <structure>
                     <property name="targetWindow">_blank</property>
                     <property name="linkType">hyperlink</property>
-                    <expression name="uri" type="constant">http://actuateone/Scorecard/directURL_dashboard.aspx?viewID=-729470523</expression>
+                    <expression name="uri" type="javascript">'http://actuateone/scorecard/directURL_dashboard.aspx?viewID=-729470523&amp;measureID=' + row["MeasureID"] + '&amp;locationID=' + row["LocationID"] + '&amp;periodID=' + row["Id"]</expression>
                 </structure>
             </list-property>
             <list-property name="filter">
                 <structure>
                     <property name="operator">eq</property>
-                    <expression name="expr" type="javascript">row["ParentMeasureName"]</expression>
+                    <expression name="expr" type="javascript">data["LocationName"]</expression>
                     <simple-property-list name="value1">
-                        <value type="javascript">params["SM_Safety"].value</value>
+                        <value type="javascript">params["Location"].value</value>
                     </simple-property-list>
                     <property name="updateAggregation">true</property>
                 </structure>
                 <structure>
                     <property name="operator">eq</property>
-                    <expression name="expr" type="javascript">data["Location name"]</expression>
+                    <expression name="expr" type="javascript">data["ParentMeasureName"]</expression>
                     <simple-property-list name="value1">
-                        <value type="javascript">params["Location"].value</value>
+                        <value type="javascript">params["SM_Safety"].value</value>
                     </simple-property-list>
                     <property name="updateAggregation">true</property>
                 </structure>
@@ -5065,7 +5866,6 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
             <property name="inheritColumns">false</property>
             <property name="height">2.3333333333333335in</property>
             <property name="width">3.2in</property>
-            <expression name="bookmark" type="javascript">"Core Metrics Detail"</expression>
             <list-property name="boundDataColumns">
                 <structure>
                     <property name="name">MeasureName</property>
@@ -5074,9 +5874,147 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
+                    <property name="name">LocationName</property>
+                    <text-property name="displayName">LocationName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["LocationName"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">StoragePeriod</property>
+                    <text-property name="displayName">StoragePeriod</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["StoragePeriod"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ConsolidationPeriod</property>
+                    <text-property name="displayName">ConsolidationPeriod</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["ConsolidationPeriod"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">PeriodConsolidation</property>
+                    <text-property name="displayName">PeriodConsolidation</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["PeriodConsolidation"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Submeasures</property>
+                    <text-property name="displayName">Submeasures</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Submeasures"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">MeasureLevel</property>
+                    <text-property name="displayName">MeasureLevel</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["MeasureLevel"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
                     <property name="name">ParentMeasureName</property>
                     <text-property name="displayName">ParentMeasureName</text-property>
                     <expression name="expression" type="javascript">dataSetRow["ParentMeasureName"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">MeasureName1</property>
+                    <text-property name="displayName">MeasureName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["MeasureName1"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">LocationLevel</property>
+                    <text-property name="displayName">LocationLevel</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["LocationLevel"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">ParentLocationName</property>
+                    <text-property name="displayName">ParentLocationName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["ParentLocationName"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">LocationName1</property>
+                    <text-property name="displayName">LocationName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["LocationName1"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">PeriodName</property>
+                    <text-property name="displayName">PeriodName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["PeriodName"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">BaseName</property>
+                    <text-property name="displayName">BaseName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["BaseName"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">BaseData</property>
+                    <text-property name="displayName">BaseData</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["BaseData"]</expression>
+                    <property name="dataType">float</property>
+                </structure>
+                <structure>
+                    <property name="name">CompName</property>
+                    <text-property name="displayName">CompName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["CompName"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">CompData</property>
+                    <text-property name="displayName">CompData</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["CompData"]</expression>
+                    <property name="dataType">float</property>
+                </structure>
+                <structure>
+                    <property name="name">CompVar</property>
+                    <text-property name="displayName">CompVar</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["CompVar"]</expression>
+                    <property name="dataType">float</property>
+                </structure>
+                <structure>
+                    <property name="name">CompVarPct</property>
+                    <text-property name="displayName">CompVarPct</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["CompVarPct"]</expression>
+                    <property name="dataType">float</property>
+                </structure>
+                <structure>
+                    <property name="name">CompIdx</property>
+                    <text-property name="displayName">CompIdx</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["CompIdx"]</expression>
+                    <property name="dataType">float</property>
+                </structure>
+                <structure>
+                    <property name="name">CompIdxRangeId</property>
+                    <text-property name="displayName">CompIdxRangeId</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["CompIdxRangeId"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">CompIdxColor</property>
+                    <text-property name="displayName">CompIdxColor</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["CompIdxColor"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">CompTxtColor</property>
+                    <text-property name="displayName">CompTxtColor</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["CompTxtColor"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Measure</property>
+                    <text-property name="displayName">MeasureName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Measure"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Location</property>
+                    <text-property name="displayName">LocationName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Location"]</expression>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
@@ -5086,15 +6024,118 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
-                    <property name="name">Location name</property>
-                    <expression name="expression" type="javascript">dataSetRow["LocationName"]</expression>
+                    <property name="name">Series Name</property>
+                    <text-property name="displayName">BaseName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Series Name"]</expression>
                     <property name="dataType">string</property>
-                    <property name="allowExport">true</property>
+                </structure>
+                <structure>
+                    <property name="name">Data Values</property>
+                    <text-property name="displayName">BaseData</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Data Values"]</expression>
+                    <property name="dataType">float</property>
+                </structure>
+                <structure>
+                    <property name="name">Comparative Series Name</property>
+                    <text-property name="displayName">CompName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Comparative Series Name"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Comparative Data</property>
+                    <text-property name="displayName">CompData</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Comparative Data"]</expression>
+                    <property name="dataType">float</property>
+                </structure>
+                <structure>
+                    <property name="name">Variance</property>
+                    <text-property name="displayName">CompVar</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Variance"]</expression>
+                    <property name="dataType">float</property>
+                </structure>
+                <structure>
+                    <property name="name">Variance Percent</property>
+                    <text-property name="displayName">CompVarPct</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Variance Percent"]</expression>
+                    <property name="dataType">float</property>
                 </structure>
                 <structure>
                     <property name="name">Performance Index</property>
+                    <text-property name="displayName">CompIdx</text-property>
                     <expression name="expression" type="javascript">dataSetRow["Performance Index"]</expression>
                     <property name="dataType">float</property>
+                </structure>
+                <structure>
+                    <property name="name">Index Range</property>
+                    <text-property name="displayName">CompIdxRangeId</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Index Range"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">CompIdxColor1</property>
+                    <text-property name="displayName">CompIdxColor</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["CompIdxColor1"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">CompTxtColor1</property>
+                    <text-property name="displayName">CompTxtColor</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["CompTxtColor1"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">MeasureName3</property>
+                    <text-property name="displayName">MeasureName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["MeasureName3"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">LocationName3</property>
+                    <text-property name="displayName">LocationName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["LocationName3"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">PeriodName2</property>
+                    <text-property name="displayName">PeriodName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["PeriodName2"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">MeasureID</property>
+                    <text-property name="displayName">Id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["MeasureID"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">MeasureName2</property>
+                    <text-property name="displayName">Name</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["MeasureName2"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">LocationID</property>
+                    <text-property name="displayName">Id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["LocationID"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">LocationName2</property>
+                    <text-property name="displayName">Name</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["LocationName2"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Id</property>
+                    <text-property name="displayName">PeriodID</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">Name</property>
+                    <text-property name="displayName">Name</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Name"]</expression>
+                    <property name="dataType">string</property>
                 </structure>
             </list-property>
             <property name="theme">ThemesReportItems.default-chart</property>

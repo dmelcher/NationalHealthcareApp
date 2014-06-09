@@ -53,7 +53,7 @@
                                     <property name="gadgetType">viewer</property>
                                     <property name="externalContentRef">
                                         <external-element-ref>
-                                            <property name="sourceFile">/Applications/National Healthcare/Report Designs/PerformanceIndicators.rptdesign</property>
+                                            <property name="sourceFile">^/Report Designs/PerformanceIndicators.rptdesign</property>
                                         </external-element-ref>
                                     </property>
                                     <property name="paramSettings">
@@ -163,7 +163,7 @@
                                 <radio-data-selector id="17">
                                     <property name="externalContentRef">
                                         <external-element-ref>
-                                            <property name="sourceFile">/Applications/National Healthcare/Report Designs/PerformanceIndicators.rptdesign</property>
+                                            <property name="sourceFile">^/Report Designs/PerformanceIndicators.rptdesign</property>
                                             <property name="targetBookmark">Location</property>
                                             <property name="isNoValueSupported">false</property>
                                         </external-element-ref>

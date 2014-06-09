@@ -404,8 +404,8 @@
                             </property>
                         </gadget>
                         <gadget name="Gadget_9bf8cb04-95ea-4e4a-a7f8-da72019ad987" id="21">
-                            <property name="x">36px</property>
-                            <property name="y">360px</property>
+                            <property name="x">18px</property>
+                            <property name="y">378px</property>
                             <property name="height">54px</property>
                             <property name="width">312px</property>
                             <property name="title">Select Submeasure</property>
@@ -629,8 +629,8 @@
                             </property>
                         </gadget>
                         <gadget name="Gadget_fa114cde-87bb-4830-9aa2-80e40f73db4a" id="31">
-                            <property name="x">378px</property>
-                            <property name="y">360px</property>
+                            <property name="x">360px</property>
+                            <property name="y">378px</property>
                             <property name="height">53px</property>
                             <property name="width">312px</property>
                             <property name="title">Select Submeasure</property>
@@ -854,8 +854,8 @@
                             </property>
                         </gadget>
                         <gadget name="Gadget_c5b1893d-e438-4a6c-8df9-9e9d96f08127" id="41">
-                            <property name="x">702px</property>
-                            <property name="y">360px</property>
+                            <property name="x">684px</property>
+                            <property name="y">378px</property>
                             <property name="height">68px</property>
                             <property name="width">312px</property>
                             <property name="title">Select Submeasure</property>
@@ -1079,16 +1079,16 @@
                             </property>
                         </gadget>
                         <gadget name="Gadget_c1468939-3e87-4ce1-8dd4-fce7610072eb" id="51">
-                            <property name="x">1044px</property>
-                            <property name="y">360px</property>
-                            <property name="height">85px</property>
+                            <property name="x">1026px</property>
+                            <property name="y">378px</property>
+                            <property name="height">97px</property>
                             <property name="width">312px</property>
                             <property name="title">Select Submeasure</property>
                             <property name="showTitle">false</property>
                             <property name="showBorder">false</property>
                             <property name="zIndex">13</property>
                             <property name="showScrollBar">true</property>
-                            <property name="height">85px</property>
+                            <property name="height">97px</property>
                             <property name="width">312px</property>
                             <property name="caption">
                                 <gadget-caption id="52">
