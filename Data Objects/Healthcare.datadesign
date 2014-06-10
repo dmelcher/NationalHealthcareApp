@@ -128,7 +128,7 @@
     <property name="43.Commentary.width">150</property>
     <property name="43.Commentary.height">200</property>
     <property name="43.Data From View.x">528</property>
-    <property name="43.Data From View.y">18</property>
+    <property name="43.Data From View.y">26</property>
     <property name="43.Data From View.width">150</property>
     <property name="43.Data From View.height">200</property>
     <property name="43.Hierarchy Info From View.x">278</property>
@@ -2850,9 +2850,17 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
             </list-property>
         </oda-data-set>
         <oda-data-set extensionID="com.actuate.data.oda.birt360plus.dataSet" name="Data From View" id="6">
+            <list-property name="computedColumns">
+                <structure>
+                    <property name="name">ReportingPeriodShortDate</property>
+                    <expression name="expression" type="javascript">row["PeriodName"].substr(5,2)</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
             <list-property name="columnHints">
                 <structure>
                     <property name="columnName">MeasureName</property>
+                    <property name="alias">MeasureName</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">MeasureName</text-property>
                     <text-property name="heading">MeasureName</text-property>
@@ -2861,6 +2869,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">LocationName</property>
+                    <property name="alias">LocationName</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">LocationName</text-property>
                     <text-property name="heading">LocationName</text-property>
@@ -2869,6 +2878,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">PeriodName</property>
+                    <property name="alias">PeriodName</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">PeriodName</text-property>
                     <text-property name="heading">PeriodName</text-property>
@@ -2877,6 +2887,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">BaseName</property>
+                    <property name="alias">BaseName</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">BaseName</text-property>
                     <text-property name="heading">BaseName</text-property>
@@ -2885,6 +2896,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">BaseData</property>
+                    <property name="alias">BaseData</property>
                     <property name="analysis">measure</property>
                     <text-property name="displayName">BaseData</text-property>
                     <text-property name="heading">BaseData</text-property>
@@ -2893,6 +2905,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">CompName</property>
+                    <property name="alias">CompName</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">CompName</text-property>
                     <text-property name="heading">CompName</text-property>
@@ -2901,6 +2914,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">CompData</property>
+                    <property name="alias">CompData</property>
                     <property name="analysis">measure</property>
                     <text-property name="displayName">CompData</text-property>
                     <text-property name="heading">CompData</text-property>
@@ -2909,6 +2923,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">CompVar</property>
+                    <property name="alias">CompVar</property>
                     <property name="analysis">measure</property>
                     <text-property name="displayName">CompVar</text-property>
                     <text-property name="heading">CompVar</text-property>
@@ -2917,6 +2932,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">CompVarPct</property>
+                    <property name="alias">CompVarPct</property>
                     <property name="analysis">measure</property>
                     <text-property name="displayName">CompVarPct</text-property>
                     <text-property name="heading">CompVarPct</text-property>
@@ -2925,6 +2941,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">CompIdx</property>
+                    <property name="alias">CompIdx</property>
                     <property name="analysis">measure</property>
                     <text-property name="displayName">CompIdx</text-property>
                     <text-property name="heading">CompIdx</text-property>
@@ -2933,6 +2950,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">CompIdxRangeId</property>
+                    <property name="alias">CompIdxRangeId</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">CompIdxRangeId</text-property>
                     <text-property name="heading">CompIdxRangeId</text-property>
@@ -2941,6 +2959,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">CompIdxColor</property>
+                    <property name="alias">CompIdxColor</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">CompIdxColor</text-property>
                     <text-property name="heading">CompIdxColor</text-property>
@@ -2949,6 +2968,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">CompTxtColor</property>
+                    <property name="alias">CompTxtColor</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">CompTxtColor</text-property>
                     <text-property name="heading">CompTxtColor</text-property>
@@ -2957,6 +2977,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">WorstMsrIdxRangeId</property>
+                    <property name="alias">WorstMsrIdxRangeId</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">WorstMsrIdxRangeId</text-property>
                     <text-property name="heading">WorstMsrIdxRangeId</text-property>
@@ -2965,6 +2986,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">WorstMsrIdxColor</property>
+                    <property name="alias">WorstMsrIdxColor</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">WorstMsrIdxColor</text-property>
                     <text-property name="heading">WorstMsrIdxColor</text-property>
@@ -2973,6 +2995,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">WorstLocIdxRangeId</property>
+                    <property name="alias">WorstLocIdxRangeId</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">WorstLocIdxRangeId</text-property>
                     <text-property name="heading">WorstLocIdxRangeId</text-property>
@@ -2981,11 +3004,16 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </structure>
                 <structure>
                     <property name="columnName">WorstLocIdxColor</property>
+                    <property name="alias">WorstLocIdxColor</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">WorstLocIdxColor</text-property>
                     <text-property name="heading">WorstLocIdxColor</text-property>
                     <property name="indexColumn">false</property>
                     <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ReportingPeriodShortDate</property>
+                    <property name="analysis">attribute</property>
                 </structure>
             </list-property>
             <list-property name="parameters">
@@ -3131,6 +3159,11 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                         <property name="name">WorstLocIdxColor</property>
                         <property name="dataType">string</property>
                     </structure>
+                    <structure>
+                        <property name="position">18</property>
+                        <property name="name">ReportingPeriodShortDate</property>
+                        <property name="dataType">string</property>
+                    </structure>
                 </list-property>
             </structure>
             <property name="dataSource">Data Source</property>
@@ -3140,119 +3173,102 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                     <property name="name">MeasureName</property>
                     <property name="nativeName">MeasureName</property>
                     <property name="dataType">string</property>
-                    <property name="nativeDataType">1</property>
                 </structure>
                 <structure>
                     <property name="position">2</property>
                     <property name="name">LocationName</property>
                     <property name="nativeName">LocationName</property>
                     <property name="dataType">string</property>
-                    <property name="nativeDataType">1</property>
                 </structure>
                 <structure>
                     <property name="position">3</property>
                     <property name="name">PeriodName</property>
                     <property name="nativeName">PeriodName</property>
                     <property name="dataType">string</property>
-                    <property name="nativeDataType">1</property>
                 </structure>
                 <structure>
                     <property name="position">4</property>
                     <property name="name">BaseName</property>
                     <property name="nativeName">BaseName</property>
                     <property name="dataType">string</property>
-                    <property name="nativeDataType">1</property>
                 </structure>
                 <structure>
                     <property name="position">5</property>
                     <property name="name">BaseData</property>
                     <property name="nativeName">BaseData</property>
                     <property name="dataType">float</property>
-                    <property name="nativeDataType">8</property>
                 </structure>
                 <structure>
                     <property name="position">6</property>
                     <property name="name">CompName</property>
                     <property name="nativeName">CompName</property>
                     <property name="dataType">string</property>
-                    <property name="nativeDataType">1</property>
                 </structure>
                 <structure>
                     <property name="position">7</property>
                     <property name="name">CompData</property>
                     <property name="nativeName">CompData</property>
                     <property name="dataType">float</property>
-                    <property name="nativeDataType">8</property>
                 </structure>
                 <structure>
                     <property name="position">8</property>
                     <property name="name">CompVar</property>
                     <property name="nativeName">CompVar</property>
                     <property name="dataType">float</property>
-                    <property name="nativeDataType">8</property>
                 </structure>
                 <structure>
                     <property name="position">9</property>
                     <property name="name">CompVarPct</property>
                     <property name="nativeName">CompVarPct</property>
                     <property name="dataType">float</property>
-                    <property name="nativeDataType">8</property>
                 </structure>
                 <structure>
                     <property name="position">10</property>
                     <property name="name">CompIdx</property>
                     <property name="nativeName">CompIdx</property>
                     <property name="dataType">float</property>
-                    <property name="nativeDataType">8</property>
                 </structure>
                 <structure>
                     <property name="position">11</property>
                     <property name="name">CompIdxRangeId</property>
                     <property name="nativeName">CompIdxRangeId</property>
                     <property name="dataType">string</property>
-                    <property name="nativeDataType">1</property>
                 </structure>
                 <structure>
                     <property name="position">12</property>
                     <property name="name">CompIdxColor</property>
                     <property name="nativeName">CompIdxColor</property>
                     <property name="dataType">string</property>
-                    <property name="nativeDataType">1</property>
                 </structure>
                 <structure>
                     <property name="position">13</property>
                     <property name="name">CompTxtColor</property>
                     <property name="nativeName">CompTxtColor</property>
                     <property name="dataType">string</property>
-                    <property name="nativeDataType">1</property>
                 </structure>
                 <structure>
                     <property name="position">14</property>
                     <property name="name">WorstMsrIdxRangeId</property>
                     <property name="nativeName">WorstMsrIdxRangeId</property>
                     <property name="dataType">string</property>
-                    <property name="nativeDataType">1</property>
                 </structure>
                 <structure>
                     <property name="position">15</property>
                     <property name="name">WorstMsrIdxColor</property>
                     <property name="nativeName">WorstMsrIdxColor</property>
                     <property name="dataType">string</property>
-                    <property name="nativeDataType">1</property>
                 </structure>
                 <structure>
                     <property name="position">16</property>
                     <property name="name">WorstLocIdxRangeId</property>
                     <property name="nativeName">WorstLocIdxRangeId</property>
                     <property name="dataType">string</property>
-                    <property name="nativeDataType">1</property>
                 </structure>
                 <structure>
                     <property name="position">17</property>
                     <property name="name">WorstLocIdxColor</property>
                     <property name="nativeName">WorstLocIdxColor</property>
                     <property name="dataType">string</property>
-                    <property name="nativeDataType">1</property>
                 </structure>
             </list-property>
             <xml-property name="queryText"><![CDATA[<?xml version="1.0"?>
@@ -5022,9 +5038,6 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 <alias-data-set name="Hierarchy Info From View" id="127">
                     <property name="originDataSet">Hierarchy Info From View</property>
                 </alias-data-set>
-                <alias-data-set name="Data From View" id="128">
-                    <property name="originDataSet">Data From View</property>
-                </alias-data-set>
                 <alias-data-set name="Commentary" id="129">
                     <property name="originDataSet">Commentary</property>
                 </alias-data-set>
@@ -5036,6 +5049,9 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 </alias-data-set>
                 <alias-data-set name="List of Periods" id="166">
                     <property name="originDataSet">List of Periods</property>
+                </alias-data-set>
+                <alias-data-set name="Data From View" id="173">
+                    <property name="originDataSet">Data From View</property>
                 </alias-data-set>
             </property>
             <property name="columnLinks">
@@ -5067,81 +5083,6 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                     </structure>
                     <property name="leftAliasDataSet">Data Model/Measure Meta data</property>
                     <property name="rightAliasDataSet">Data Model/Hierarchy Info From View</property>
-                    <property name="allowPushdown">false</property>
-                </column-link>
-                <column-link id="132">
-                    <structure name="leftColumn">
-                        <property name="position">3</property>
-                        <property name="name">MeasureName</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure name="rightColumn">
-                        <property name="position">1</property>
-                        <property name="name">MeasureName</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <property name="leftAliasDataSet">Data Model/Hierarchy Info From View</property>
-                    <property name="rightAliasDataSet">Data Model/Data From View</property>
-                    <property name="allowPushdown">false</property>
-                </column-link>
-                <column-link id="133">
-                    <structure name="leftColumn">
-                        <property name="position">6</property>
-                        <property name="name">LocationName</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure name="rightColumn">
-                        <property name="position">2</property>
-                        <property name="name">LocationName</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <property name="leftAliasDataSet">Data Model/Hierarchy Info From View</property>
-                    <property name="rightAliasDataSet">Data Model/Data From View</property>
-                    <property name="allowPushdown">false</property>
-                </column-link>
-                <column-link id="134">
-                    <structure name="leftColumn">
-                        <property name="position">1</property>
-                        <property name="name">MeasureName</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure name="rightColumn">
-                        <property name="position">1</property>
-                        <property name="name">MeasureName</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <property name="leftAliasDataSet">Data Model/Data From View</property>
-                    <property name="rightAliasDataSet">Data Model/Commentary</property>
-                    <property name="allowPushdown">false</property>
-                </column-link>
-                <column-link id="135">
-                    <structure name="leftColumn">
-                        <property name="position">2</property>
-                        <property name="name">LocationName</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure name="rightColumn">
-                        <property name="position">2</property>
-                        <property name="name">LocationName</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <property name="leftAliasDataSet">Data Model/Data From View</property>
-                    <property name="rightAliasDataSet">Data Model/Commentary</property>
-                    <property name="allowPushdown">false</property>
-                </column-link>
-                <column-link id="136">
-                    <structure name="leftColumn">
-                        <property name="position">3</property>
-                        <property name="name">PeriodName</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure name="rightColumn">
-                        <property name="position">3</property>
-                        <property name="name">PeriodName</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <property name="leftAliasDataSet">Data Model/Data From View</property>
-                    <property name="rightAliasDataSet">Data Model/Commentary</property>
                     <property name="allowPushdown">false</property>
                 </column-link>
                 <column-link id="148">
@@ -5186,6 +5127,81 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                         <property name="dataType">string</property>
                     </structure>
                     <property name="leftAliasDataSet">Data Model/List of Periods</property>
+                    <property name="rightAliasDataSet">Data Model/Commentary</property>
+                    <property name="allowPushdown">false</property>
+                </column-link>
+                <column-link id="193">
+                    <structure name="leftColumn">
+                        <property name="position">3</property>
+                        <property name="name">MeasureName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure name="rightColumn">
+                        <property name="position">1</property>
+                        <property name="name">MeasureName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <property name="leftAliasDataSet">Data Model/Hierarchy Info From View</property>
+                    <property name="rightAliasDataSet">Data Model/Data From View</property>
+                    <property name="allowPushdown">false</property>
+                </column-link>
+                <column-link id="194">
+                    <structure name="leftColumn">
+                        <property name="position">6</property>
+                        <property name="name">LocationName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure name="rightColumn">
+                        <property name="position">2</property>
+                        <property name="name">LocationName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <property name="leftAliasDataSet">Data Model/Hierarchy Info From View</property>
+                    <property name="rightAliasDataSet">Data Model/Data From View</property>
+                    <property name="allowPushdown">false</property>
+                </column-link>
+                <column-link id="195">
+                    <structure name="leftColumn">
+                        <property name="position">1</property>
+                        <property name="name">MeasureName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure name="rightColumn">
+                        <property name="position">1</property>
+                        <property name="name">MeasureName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <property name="leftAliasDataSet">Data Model/Data From View</property>
+                    <property name="rightAliasDataSet">Data Model/Commentary</property>
+                    <property name="allowPushdown">false</property>
+                </column-link>
+                <column-link id="196">
+                    <structure name="leftColumn">
+                        <property name="position">2</property>
+                        <property name="name">LocationName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure name="rightColumn">
+                        <property name="position">2</property>
+                        <property name="name">LocationName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <property name="leftAliasDataSet">Data Model/Data From View</property>
+                    <property name="rightAliasDataSet">Data Model/Commentary</property>
+                    <property name="allowPushdown">false</property>
+                </column-link>
+                <column-link id="197">
+                    <structure name="leftColumn">
+                        <property name="position">3</property>
+                        <property name="name">PeriodName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure name="rightColumn">
+                        <property name="position">3</property>
+                        <property name="name">PeriodName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <property name="leftAliasDataSet">Data Model/Data From View</property>
                     <property name="rightAliasDataSet">Data Model/Commentary</property>
                     <property name="allowPushdown">false</property>
                 </column-link>
@@ -5291,62 +5307,6 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                         </category-column>
                     </property>
                 </category>
-                <category name="Data From View" id="99">
-                    <property name="categoryColumns">
-                        <category-column name="Measure" id="100">
-                            <property name="aliasDataSet">Data Model/Data From View</property>
-                            <property name="resultSetColumnName">MeasureName</property>
-                        </category-column>
-                        <category-column name="Location" id="101">
-                            <property name="aliasDataSet">Data Model/Data From View</property>
-                            <property name="resultSetColumnName">LocationName</property>
-                        </category-column>
-                        <category-column name="Reporting Period" id="102">
-                            <property name="aliasDataSet">Data Model/Data From View</property>
-                            <property name="resultSetColumnName">PeriodName</property>
-                        </category-column>
-                        <category-column name="Series Name" id="103">
-                            <property name="aliasDataSet">Data Model/Data From View</property>
-                            <property name="resultSetColumnName">BaseName</property>
-                        </category-column>
-                        <category-column name="Data Values" id="104">
-                            <property name="aliasDataSet">Data Model/Data From View</property>
-                            <property name="resultSetColumnName">BaseData</property>
-                        </category-column>
-                        <category-column name="Comparative Series Name" id="105">
-                            <property name="aliasDataSet">Data Model/Data From View</property>
-                            <property name="resultSetColumnName">CompName</property>
-                        </category-column>
-                        <category-column name="Comparative Data" id="106">
-                            <property name="aliasDataSet">Data Model/Data From View</property>
-                            <property name="resultSetColumnName">CompData</property>
-                        </category-column>
-                        <category-column name="Variance" id="107">
-                            <property name="aliasDataSet">Data Model/Data From View</property>
-                            <property name="resultSetColumnName">CompVar</property>
-                        </category-column>
-                        <category-column name="Variance Percent" id="108">
-                            <property name="aliasDataSet">Data Model/Data From View</property>
-                            <property name="resultSetColumnName">CompVarPct</property>
-                        </category-column>
-                        <category-column name="Performance Index" id="109">
-                            <property name="aliasDataSet">Data Model/Data From View</property>
-                            <property name="resultSetColumnName">CompIdx</property>
-                        </category-column>
-                        <category-column name="Index Range" id="110">
-                            <property name="aliasDataSet">Data Model/Data From View</property>
-                            <property name="resultSetColumnName">CompIdxRangeId</property>
-                        </category-column>
-                        <category-column name="CompIdxColor1" id="111">
-                            <property name="aliasDataSet">Data Model/Data From View</property>
-                            <property name="resultSetColumnName">CompIdxColor</property>
-                        </category-column>
-                        <category-column name="CompTxtColor1" id="112">
-                            <property name="aliasDataSet">Data Model/Data From View</property>
-                            <property name="resultSetColumnName">CompTxtColor</property>
-                        </category-column>
-                    </property>
-                </category>
                 <category name="Commentary" id="117">
                     <property name="categoryColumns">
                         <category-column name="MeasureName3" id="118">
@@ -5396,6 +5356,82 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                         <category-column name="Name" id="169">
                             <property name="aliasDataSet">Data Model/List of Periods</property>
                             <property name="resultSetColumnName">Name</property>
+                        </category-column>
+                    </property>
+                </category>
+                <category name="Data From View" id="174">
+                    <property name="categoryColumns">
+                        <category-column name="MeasureName4" id="175">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">MeasureName</property>
+                        </category-column>
+                        <category-column name="LocationName4" id="176">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">LocationName</property>
+                        </category-column>
+                        <category-column name="PeriodName1" id="177">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">PeriodName</property>
+                        </category-column>
+                        <category-column name="BaseName1" id="178">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">BaseName</property>
+                        </category-column>
+                        <category-column name="BaseData1" id="179">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">BaseData</property>
+                        </category-column>
+                        <category-column name="CompName1" id="180">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">CompName</property>
+                        </category-column>
+                        <category-column name="CompData1" id="181">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">CompData</property>
+                        </category-column>
+                        <category-column name="CompVar1" id="182">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">CompVar</property>
+                        </category-column>
+                        <category-column name="CompVarPct1" id="183">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">CompVarPct</property>
+                        </category-column>
+                        <category-column name="Performance Index" id="184">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">CompIdx</property>
+                        </category-column>
+                        <category-column name="CompIdxRangeId1" id="185">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">CompIdxRangeId</property>
+                        </category-column>
+                        <category-column name="CompIdxColor1" id="186">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">CompIdxColor</property>
+                        </category-column>
+                        <category-column name="CompTxtColor1" id="187">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">CompTxtColor</property>
+                        </category-column>
+                        <category-column name="WorstMsrIdxRangeId" id="188">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">WorstMsrIdxRangeId</property>
+                        </category-column>
+                        <category-column name="WorstMsrIdxColor" id="189">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">WorstMsrIdxColor</property>
+                        </category-column>
+                        <category-column name="WorstLocIdxRangeId" id="190">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">WorstLocIdxRangeId</property>
+                        </category-column>
+                        <category-column name="WorstLocIdxColor" id="191">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">WorstLocIdxColor</property>
+                        </category-column>
+                        <category-column name="ReportingPeriodShortDate" id="198">
+                            <property name="aliasDataSet">Data Model/Data From View</property>
+                            <property name="resultSetColumnName">ReportingPeriodShortDate</property>
                         </category-column>
                     </property>
                 </category>

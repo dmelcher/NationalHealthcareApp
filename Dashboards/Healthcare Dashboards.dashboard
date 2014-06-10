@@ -9,7 +9,7 @@
     </list-property>
     <property name="dashboardView">
         <dashboard id="2">
-            <property name="activeTab">6c34e60f-5b96-484b-9f80-2feec23fdd5b</property>
+            <property name="activeTab">8ddc456c-c1d4-424c-a89f-33231735dddf</property>
             <property name="tabs">
                 <tab-element name="8ddc456c-c1d4-424c-a89f-33231735dddf" id="21">
                     <property name="title">Performance Indicators</property>

@@ -4,7 +4,7 @@
   <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Corporate Strategy.dashboard" path="/NationalHealthcareApp/Dashboards/Corporate Strategy.dashboard"/>
   <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Briefing Book.dashboard" path="/NationalHealthcareApp/Dashboards/Briefing Book.dashboard"/>
   <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Overall Healthcare KPI View.dashboard" path="/NationalHealthcareApp/Dashboards/Overall Healthcare KPI View.dashboard"/>
-  <files xsi:type="com.actuate.istudio.analysis.model:RptLibrary" name="ThemesReportItems.rptlibrary" path="/NationalHealthcareApp/ThemesReportItems.rptlibrary" reports="//@files.19"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptLibrary" name="ThemesReportItems.rptlibrary" path="/NationalHealthcareApp/ThemesReportItems.rptlibrary" reports="//@files.17 //@files.18 //@files.19 //@files.20 //@files.21 //@files.24"/>
   <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Key Performance Trends.dashboard" path="/NationalHealthcareApp/Dashboards/Key Performance Trends.dashboard"/>
   <files xsi:type="com.actuate.istudio.analysis.model:DataDesign" name="MapDiagnositc.datadesign" path="/NationalHealthcareApp/Data Objects/MapDiagnositc.datadesign">
     <dataSets name="DiagnosticData">
@@ -70,37 +70,18 @@
     </dataSets>
   </files>
   <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Cost Of Care.dashboard" path="/NationalHealthcareApp/Dashboards/Cost Of Care.dashboard">
-    <dataMap key="//@files.14" value="1"/>
-  </files>
-  <files xsi:type="com.actuate.istudio.analysis.model:RptLibrary" name="ThemesReportItems3.rptlibrary" path="/NationalHealthcareApp/ThemesReportItems3.rptlibrary" reports="//@files.15 //@files.16 //@files.19"/>
-  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="MapDiagnositc.data" path="/NationalHealthcareApp/Data Objects/MapDiagnositc.data">
-    <targetReportsMap key="//@files.15" value="1"/>
-  </files>
-  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="PatientData.data" path="/NationalHealthcareApp/Data Objects/PatientData.data">
-    <targetReportsMap key="//@files.16" value="1"/>
-  </files>
-  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Healthcare Dashboards.dashboard" path="/NationalHealthcareApp/Dashboards/Healthcare Dashboards.dashboard"/>
-  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="Health.data" path="/NationalHealthcareApp/Data Objects/Health.data">
-    <targetDashboardsMap key="//@files.9" value="1"/>
-  </files>
-  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="Health-IL.rptdesign" path="/NationalHealthcareApp/Report Designs/Health-IL.rptdesign" libraries="//@files.10">
+    <dataMap key="//@files.15" value="1"/>
     <dataMap key="//@files.11" value="1"/>
   </files>
-  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="Patient Data.rptdesign" path="/NationalHealthcareApp/Report Designs/Patient Data.rptdesign" libraries="//@files.10">
-    <dataMap key="//@files.12" value="1"/>
-    <dataSets name="Patient Data">
-      <columns name="Patient ID"/>
-      <columns name="Diagnosis"/>
-      <columns name="Prescription"/>
-      <columns name="Appt Date"/>
-      <columns name="Would Recommend"/>
-      <columns name="Gender"/>
-      <columns name="Cost"/>
-    </dataSets>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptLibrary" name="ThemesReportItems3.rptlibrary" path="/NationalHealthcareApp/ThemesReportItems3.rptlibrary" reports="//@files.17 //@files.18 //@files.19 //@files.20 //@files.21 //@files.22 //@files.23 //@files.24"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="MapDiagnositc.data" path="/NationalHealthcareApp/Data Objects/MapDiagnositc.data">
+    <targetReportsMap key="//@files.22" value="1"/>
+    <targetDashboardsMap key="//@files.9" value="1"/>
   </files>
-  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="Healthcare.data" path="/NationalHealthcareApp/Data Objects/Healthcare.data">
-    <targetReportsMap key="//@files.19" value="1"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="PatientData.data" path="/NationalHealthcareApp/Data Objects/PatientData.data">
+    <targetReportsMap key="//@files.23" value="1"/>
   </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="Healthcare Dashboards.dashboard" path="/NationalHealthcareApp/Dashboards/Healthcare Dashboards.dashboard"/>
   <files xsi:type="com.actuate.istudio.analysis.model:DataDesign" name="Healthcare.datadesign" path="/NationalHealthcareApp/Data Objects/Healthcare.datadesign">
     <dataSets name="List of Views">
       <columns name="Id"/>
@@ -205,7 +186,48 @@
       <columns name="Name"/>
     </dataSets>
   </files>
-  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="PerformanceIndicators_backup.rptdesign" path="/NationalHealthcareApp/Report Designs/PerformanceIndicators_backup.rptdesign" libraries="//@files.4 //@files.10">
-    <dataMap key="//@files.17" value="1"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="Health.data" path="/NationalHealthcareApp/Data Objects/Health.data">
+    <targetDashboardsMap key="//@files.9" value="1"/>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="Healthcare.data" path="/NationalHealthcareApp/Data Objects/Healthcare.data">
+    <targetReportsMap key="//@files.17" value="1"/>
+    <targetReportsMap key="//@files.18" value="1"/>
+    <targetReportsMap key="//@files.19" value="1"/>
+    <targetReportsMap key="//@files.20" value="1"/>
+    <targetReportsMap key="//@files.21" value="1"/>
+    <targetReportsMap key="//@files.24" value="1"/>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="MetricsOverTime_CoreMeasures.rptdesign" path="/NationalHealthcareApp/Report Designs/MetricsOverTime_CoreMeasures.rptdesign" libraries="//@files.4 //@files.10">
+    <dataMap key="//@files.16" value="1"/>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="MetricsOverTime_dashboard.rptdesign" path="/NationalHealthcareApp/Report Designs/MetricsOverTime_dashboard.rptdesign" libraries="//@files.4 //@files.10">
+    <dataMap key="//@files.16" value="1"/>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="PerformanceIndicators.rptdesign" path="/NationalHealthcareApp/Report Designs/PerformanceIndicators.rptdesign" libraries="//@files.4 //@files.10">
+    <dataMap key="//@files.16" value="1"/>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="MetricsOverTime_PatientSatisfaction.rptdesign" path="/NationalHealthcareApp/Report Designs/MetricsOverTime_PatientSatisfaction.rptdesign" libraries="//@files.4 //@files.10">
+    <dataMap key="//@files.16" value="1"/>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="MetricsOverTime_Safety.rptdesign" path="/NationalHealthcareApp/Report Designs/MetricsOverTime_Safety.rptdesign" libraries="//@files.4 //@files.10">
+    <dataMap key="//@files.16" value="1"/>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="Health-IL.rptdesign" path="/NationalHealthcareApp/Report Designs/Health-IL.rptdesign" libraries="//@files.10">
+    <dataMap key="//@files.11" value="1"/>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="Patient Data.rptdesign" path="/NationalHealthcareApp/Report Designs/Patient Data.rptdesign" libraries="//@files.10">
+    <dataMap key="//@files.12" value="1"/>
+    <dataSets name="Patient Data">
+      <columns name="Patient ID"/>
+      <columns name="Diagnosis"/>
+      <columns name="Prescription"/>
+      <columns name="Appt Date"/>
+      <columns name="Would Recommend"/>
+      <columns name="Gender"/>
+      <columns name="Cost"/>
+    </dataSets>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="MetricsOverTime_Finance.rptdesign" path="/NationalHealthcareApp/Report Designs/MetricsOverTime_Finance.rptdesign" libraries="//@files.4 //@files.10">
+    <dataMap key="//@files.16" value="1"/>
   </files>
 </com.actuate.istudio.analysis.model:Project>

@@ -14,7 +14,7 @@
             <property name="tabs">
                 <tab-element name="180a3b33-87c3-4efd-af27-ac689d7b111c" id="3">
                     <property name="title">Performance Indicators</property>
-                    <property name="backgroundColor">auto</property>
+                    <property name="backgroundColor">RGB(255,255,255)</property>
                     <property name="freeFormGadgets">
                         <gadget name="Gadget_305e0445-d032-4905-aecc-5f8d97407e63" id="9">
                             <property name="x">18px</property>
@@ -97,6 +97,7 @@
                                         <event-object>
                                             <property name="appliedTo">Location</property>
                                             <property name="gadget">Gadget_5cd73684-4627-4903-879c-30e7221d02ff</property>
+                                            <property name="dirty">false</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>
@@ -130,6 +131,7 @@
                                     <property name="eventObjects">
                                         <event-object>
                                             <property name="gadget">Gadget_5cd73684-4627-4903-879c-30e7221d02ff</property>
+                                            <property name="dirty">false</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>
@@ -186,6 +188,7 @@
                                     <property name="eventObjects">
                                         <event-object>
                                             <property name="gadget">f7d977a8-310c-4541-8aae-8cccb96c6fa8</property>
+                                            <property name="dirty">false</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>
@@ -195,6 +198,7 @@
                                         <event-object>
                                             <property name="appliedTo">Location</property>
                                             <property name="gadget">Gadget_305e0445-d032-4905-aecc-5f8d97407e63</property>
+                                            <property name="dirty">false</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>

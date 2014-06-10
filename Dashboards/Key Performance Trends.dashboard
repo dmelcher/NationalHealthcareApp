@@ -14,7 +14,7 @@
             <property name="tabs">
                 <tab-element name="180a3b33-87c3-4efd-af27-ac689d7b111c" id="3">
                     <property name="title">Key Performance Trends</property>
-                    <property name="backgroundColor">auto</property>
+                    <property name="backgroundColor">RGB(255,255,255)</property>
                     <property name="freeFormGadgets">
                         <gadget name="Gadget_51fcc7d4-b46c-40c8-b29d-8d0b7defaf1c" id="12">
                             <property name="x">0px</property>

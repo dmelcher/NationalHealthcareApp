@@ -51,6 +51,7 @@
                     <property name="showFooter">false</property>
                     <property name="headerHTML">null</property>
                     <property name="footerHTML">null</property>
+                    <property name="backgroundColor">RGB(255,255,255)</property>
                     <property name="sections">
                         <section id="7">
                             <property name="width">100%</property>

@@ -3158,8 +3158,6 @@ ORDER BY [Income]]]></xml-property>
   <extendedProperties name="keep.hierarchy.category" value="true"/>
   <extendedProperties name="keep.hierarchy.series" value="true"/>
   <extendedProperties name="jschart.zoom" value="xy"/>
-  <extendedProperties name="drilled.filters_" value="_@,_"/>
-  <extendedProperties name="enable.drill.proc_" value="true"/>
   <extendedProperties name="jschart.series.shadow" value="false"/>
   <sampleData>
    <baseSampleData dataSetRepresentation="QWER"/>
@@ -3323,11 +3321,6 @@ ORDER BY [Income]]]></xml-property>
                     <expression name="expression">dataSetRow["Diagnosis"]</expression>
                     <property name="dataType">string</property>
                 </structure>
-                <structure>
-                    <property name="name">Prescription</property>
-                    <expression name="expression">dataSetRow["Prescription"]</expression>
-                    <property name="dataType">string</property>
-                </structure>
             </list-property>
             <property name="theme">ThemesReportItems3.Modern</property>
             <property name="linkedDataModel">NewDataMartDataSource1::Data Model</property>
@@ -3346,7 +3339,7 @@ ORDER BY [Income]]]></xml-property>
             <property name="tabs">
                 <tab-element name="6930759a-e571-468f-a504-c86338b3c4371" id="417">
                     <property name="title">Cost of Care</property>
-                    <property name="backgroundColor">auto</property>
+                    <property name="backgroundColor">RGB(255,255,255)</property>
                     <property name="sections">
                         <section id="325">
                             <property name="width">15.203426124197003%</property>
@@ -3763,7 +3756,7 @@ ORDER BY [Income]]]></xml-property>
                             <property name="gadgets">
                                 <gadget name="Gadget_14b03f6e-f295-4033-b137-6bb5b8e37bdc" id="412">
                                     <property name="height">231px</property>
-                                    <property name="title">What diagnostic costs are trending upward?</property>
+                                    <property name="title">Which diagnostic costs are trending upward?</property>
                                     <property name="showTitle">false</property>
                                     <property name="showBorder">false</property>
                                     <property name="zIndex">13</property>
@@ -3918,7 +3911,7 @@ ORDER BY [Income]]]></xml-property>
                                 </gadget>
                                 <gadget name="Gadget_1fd7238e-1171-4c12-972d-321084e0a65b" id="409">
                                     <property name="height">382px</property>
-                                    <property name="title">What areas have the highest  diagnosis population?</property>
+                                    <property name="title">Which areas have the highest  diagnosis population?</property>
                                     <property name="externalGadgetURI">^/Report Designs/Health-IL.rptdesign</property>
                                     <property name="showTitle">false</property>
                                     <property name="showBorder">false</property>
@@ -3949,7 +3942,7 @@ ORDER BY [Income]]]></xml-property>
                                             <property name="gadgetType">viewer</property>
                                             <property name="externalContentRef">
                                                 <external-element-ref>
-                                                    <property name="sourceFile">^/Report Designs/Health-IL.rptdesign</property>
+                                                    <property name="sourceFile">/Applications/NationalHealthcareApp/Report Designs/Health-IL.rptdesign</property>
                                                 </external-element-ref>
                                             </property>
                                             <property name="paramSettings">

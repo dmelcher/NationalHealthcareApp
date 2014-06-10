@@ -51,6 +51,7 @@
             <property name="tabs">
                 <tab-element name="a85c1d0a-ffb6-42d5-b624-bbac5298b0f7" id="13">
                     <property name="title">Corporate Strategy</property>
+                    <property name="backgroundColor">RGB(255,255,255)</property>
                     <property name="freeFormGadgets">
                         <gadget name="8cc65e82-48dd-4027-80df-e8695cdd0bce" id="19">
                             <list-property name="userProperties">
