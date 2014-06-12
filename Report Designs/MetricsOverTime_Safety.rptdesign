@@ -5689,15 +5689,15 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
       <triggers condition="2">
        <action type="0">
         <value _type="MultiURLValues">
-         <uRLValues baseUrl="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;hyperlink&lt;/property&gt;&#10;    &lt;expression name=&quot;uri&quot; type=&quot;javascript&quot;&gt;&#039;http://actuateone/scorecard/directURL_dashboard.aspx?viewID=-729470523&amp;amp;measureID=&#039; + row[&quot;MeasureID&quot;] + &#039;&amp;amp;locationID=&#039; + row[&quot;LocationID&quot;] + &#039;&amp;amp;periodID=&#039; + row[&quot;Id&quot;]&lt;/expression&gt;&#10;    &lt;property name=&quot;targetWindow&quot;&gt;_blank&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" baseParameterName="" valueParameterName="" seriesParameterName="">
+         <uRLValues baseUrl="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;hyperlink&lt;/property&gt;&#10;    &lt;expression name=&quot;uri&quot; type=&quot;javascript&quot;&gt;&#039;http://actuateone/scorecard/portal_dashboard.aspx?viewID=-729470523&amp;amp;measureID=&#039; + row[&quot;MeasureID&quot;] + &#039;&amp;amp;locationID=&#039; + row[&quot;LocationID&quot;] + &#039;&amp;amp;periodID=&#039; + row[&quot;Id&quot;] + &#039;&amp;amp;s=ACTUATEONE&amp;amp;d=National+Healthcare&amp;amp;m=Standard&amp;amp;u=sysadmin&amp;amp;p=healthcare&#039;&lt;/expression&gt;&#10;    &lt;property name=&quot;targetWindow&quot;&gt;_blank&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" baseParameterName="" valueParameterName="" seriesParameterName="">
           <label>
            <caption value="Drill"/>
           </label>
          </uRLValues>
+         <propertiesMap key="MenuItem" value="color:Black;fontSize:10pt;paddingLeft:10px;paddingRight:10px;paddingTop:2px;paddingBottom:2px"/>
          <propertiesMap key="Menu" value="zIndex:99999;backgroundColor:#FAFFF8;width:auto;height:auto;border:1px solid #333333;filter:progid:DXImageTransform.Microsoft.Shadow(Color:#333333,Direction=120,strength=5)"/>
          <propertiesMap key="OnMouseOut" value="backgroundColor:#FAFFF8;color:#000000"/>
          <propertiesMap key="OnMouseOver" value="backgroundColor:#245DDB;color:#FFFFFF"/>
-         <propertiesMap key="MenuItem" value="color:Black;fontSize:10pt;paddingLeft:10px;paddingRight:10px;paddingTop:2px;paddingBottom:2px"/>
         </value>
        </action>
       </triggers>
@@ -5879,7 +5879,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 <structure>
                     <property name="targetWindow">_blank</property>
                     <property name="linkType">hyperlink</property>
-                    <expression name="uri" type="javascript">'http://actuateone/scorecard/directURL_dashboard.aspx?viewID=-729470523&amp;measureID=' + row["MeasureID"] + '&amp;locationID=' + row["LocationID"] + '&amp;periodID=' + row["Id"]</expression>
+                    <expression name="uri" type="javascript">'http://actuateone/scorecard/portal_dashboard.aspx?viewID=-729470523&amp;measureID=' + row["MeasureID"] + '&amp;locationID=' + row["LocationID"] + '&amp;periodID=' + row["Id"] + '&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=healthcare'</expression>
                 </structure>
             </list-property>
             <list-property name="filter">

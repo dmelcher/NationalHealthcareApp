@@ -159,6 +159,7 @@
       <columns name="WorstMsrIdxColor"/>
       <columns name="WorstLocIdxRangeId"/>
       <columns name="WorstLocIdxColor"/>
+      <columns name="ReportingPeriodShortDate" expression="row[&quot;PeriodName&quot;].substr(5,2)"/>
     </dataSets>
     <dataSets name="Commentary">
       <columns name="MeasureName"/>

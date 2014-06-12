@@ -4836,7 +4836,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                     <property name="dataType">string</property>
                     <property name="nativeDataType">1</property>
                     <property name="position">1</property>
-                    <expression name="defaultValue" type="javascript">"Period"</expression>
+                    <expression name="defaultValue" type="constant">Period</expression>
                     <property name="isOptional">false</property>
                     <property name="isInput">true</property>
                     <property name="isOutput">false</property>
@@ -4844,6 +4844,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
                 <structure>
                     <property name="name">includeDescriptions</property>
                     <property name="nativeName">includeDescriptions</property>
+                    <property name="dataType">string</property>
                     <property name="nativeDataType">1</property>
                     <property name="position">2</property>
                     <expression name="defaultValue" type="javascript">""</expression>
@@ -4915,7 +4916,7 @@ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
         <design:inputAttributes>
           <design:elementAttributes>
             <design:defaultValues>
-              <design:values></design:values>
+              <design:values>Period</design:values>
             </design:defaultValues>
           </design:elementAttributes>
         </design:inputAttributes>
